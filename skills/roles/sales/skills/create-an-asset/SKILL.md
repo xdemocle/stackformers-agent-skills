@@ -437,7 +437,7 @@ For each step, define:
 step:
   number: 1
   from: "human"
-  to: "claude"
+  to: "ai-agent"
   action: "Initiates performance review"
   description: "Sarah, a Brand Analyst at [Prospect], kicks off the quarterly review..."
   data_example: "Review request: Nike brand, Q4 2025"
@@ -456,21 +456,21 @@ Q4 performance for the Nike license agreement. She opens the review
 dashboard and clicks 'Start Review'..."
 
 Step 2: Contract Analysis
-"Claude retrieves the Nike contract PDF and extracts the performance
+"The agent retrieves the Nike contract PDF and extracts the performance
 obligations: minimum $50M revenue, 12% margin requirement, quarterly
 reporting deadline..."
 
 Step 3: Data Query
-"Claude formulates a query and sends it to Workato DataGenie:
+"The agent formulates a query and sends it to Workato DataGenie:
 'Get Q4 2025 revenue and gross margin for Nike brand from Snowflake'..."
 
 Step 4: Results & Synthesis
-"Snowflake returns the data. Claude compares actuals vs. obligations:
+"Snowflake returns the data. The agent compares actuals vs. obligations:
 Revenue $52.3M ✓ (exceeded by $2.3M)
 Margin 11.2% ⚠️ (0.8% below threshold)..."
 
 Step 5: Insight Delivery
-"Claude synthesizes findings into an executive summary with
+"The agent synthesizes findings into an executive summary with
 recommendations: 'Review promotional spend allocation to improve
 margin performance...'"
 ```
@@ -840,13 +840,13 @@ Strategic Fit | Business Impact | ROI Calculator | Security & Trust | Next Steps
 - Audience: IT architects
 - Purpose: POC proposal
 - Format: Workflow demo
-- Components: Claude, Workato DataGenie, Snowflake, PDF contracts
+- Components: AI Agent, Workato DataGenie, Snowflake, PDF contracts
 
 **Output structure:**
 
 ```
 [Interactive canvas with 5 nodes]
-Human → Claude → PDF Contracts → Workato → Snowflake
+Human → AI Agent → PDF Contracts → Workato → Snowflake
          ↓
     [Results back to Human]
 
@@ -884,7 +884,7 @@ For workflow demos, use these icon mappings:
 | ---------- | ------------------ | --------------------- |
 | human      | 👤 or person SVG   | User, Analyst, Admin  |
 | document   | 📄 or file SVG     | PDF, Contract, Report |
-| ai         | 🤖 or brain SVG    | Claude, AI Agent      |
+| ai         | 🤖 or brain SVG    | AI Agent, LLM         |
 | database   | 🗄️ or cylinder SVG | Snowflake, Postgres   |
 | api        | 🔌 or plug SVG     | REST API, GraphQL     |
 | middleware | ⚡ or hub SVG      | Workato, MCP Server   |
