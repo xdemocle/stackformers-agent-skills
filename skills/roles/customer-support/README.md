@@ -1,16 +1,10 @@
-# Customer Support Plugin
+# Customer Support Skill Pack
 
-A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, response drafting, customer research, and knowledge base authoring for support teams.
-
-## Installation
-
-```
-claude plugins add knowledge-work-plugins/customer-support
-```
+Ticket triage, escalation management, response drafting, customer research, and knowledge base authoring for support teams.
 
 ## What It Does
 
-This plugin turns Claude into a customer support co-pilot. It helps you:
+This skill pack turns your AI agent into a customer support co-pilot. It helps you:
 
 - **Triage incoming tickets** with structured categorization, priority assessment, and routing recommendations
 - **Research customer questions** by synthesizing information from multiple sources with confidence scoring
@@ -65,7 +59,7 @@ Connect your support platform, knowledge base, and communication tools for the b
 You: /triage Customer says their dashboard has been showing a blank
      page since this morning — they're on the Enterprise plan
 
-Claude: Analyzing the issue...
+Agent: Analyzing the issue...
 
 ## Triage: Dashboard blank page — Enterprise customer
 
@@ -87,7 +81,7 @@ about browser and any recent changes, offering status page link]
 ```
 You: /research Does our platform support SSO with Okta?
 
-Claude: Let me check across available sources...
+Agent: Let me check across available sources...
 
 [Searches docs, knowledge base, previous conversations,
  and web sources — synthesizes answer with confidence
@@ -100,7 +94,7 @@ Claude: Let me check across available sources...
 You: /escalate API returning 500 errors intermittently — 3
      Enterprise customers reported this week
 
-Claude: I'll gather context and build the escalation brief...
+Agent: I'll gather context and build the escalation brief...
 
 [Pulls ticket history, identifies affected accounts,
  structures reproduction steps, assesses business impact,
@@ -113,7 +107,7 @@ Claude: I'll gather context and build the escalation brief...
 You: /draft-response Customer escalation — their integration
      has been down for 2 days and they're frustrated
 
-Claude: [Generates empathetic, professional response acknowledging
+Agent: [Generates empathetic, professional response acknowledging
  the frustration, taking ownership, providing a clear action
  plan with timeline, and offering a call]
 ```
@@ -124,18 +118,18 @@ Claude: [Generates empathetic, professional response acknowledging
 You: /kb-article How to configure webhook notifications —
      just resolved this for the third customer this month
 
-Claude: [Generates a structured how-to article with prerequisites,
+Agent: [Generates a structured how-to article with prerequisites,
  step-by-step instructions, verification steps, and common
  issues — optimized for search]
 ```
 
 ## Configuration
 
-The plugin works out of the box with the included MCP connections. For the richest experience, connect additional data sources through your Claude settings:
+For the richest experience, connect data sources via tool connectors (MCP servers or equivalent):
 
 1. **Support platform**: Add your ticketing system for ticket history and customer context
 2. **Knowledge base**: Add your wiki for internal documentation and existing KB articles
 3. **Project tracker**: Add your issue tracker for bug reports and feature requests
 4. **CRM**: Add your CRM for account details and contact information
 
-Without these connections, the plugin will ask you to provide context manually and offer frameworks and templates you can fill in with your own data.
+Without these connections, the agent will ask you to provide context manually and offer frameworks and templates you can fill in with your own data.

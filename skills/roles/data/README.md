@@ -1,20 +1,14 @@
-# Data Analyst Plugin
+# Data Analyst Skill Pack
 
-A data analyst plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. SQL queries, data exploration, visualization, dashboards, and insight generation. Works with any data warehouse, any SQL dialect, and any analytics stack.
-
-## Installation
-
-```
-claude plugins add knowledge-work-plugins/data
-```
+SQL queries, data exploration, visualization, dashboards, and insight generation. Works with any data warehouse, any SQL dialect, and any analytics stack.
 
 ## What It Does
 
-This plugin transforms Claude into a data analyst collaborator. It helps you explore datasets, write optimized SQL, build visualizations, create interactive dashboards, and validate analyses before sharing with stakeholders.
+This skill pack transforms your AI agent into a data analyst collaborator. It helps you explore datasets, write optimized SQL, build visualizations, create interactive dashboards, and validate analyses before sharing with stakeholders.
 
 ### With a Data Warehouse Connection
 
-Connect your data warehouse MCP server (e.g., Snowflake, Databricks, BigQuery, or any SQL-compatible database) for the best experience. Claude will:
+Connect your data warehouse via a tool connector (e.g., Snowflake, Databricks, BigQuery, or any SQL-compatible database) for the best experience. The agent will:
 
 - Query your data warehouse directly
 - Explore schemas and table metadata
@@ -23,7 +17,7 @@ Connect your data warehouse MCP server (e.g., Snowflake, Databricks, BigQuery, o
 
 ### Without a Data Warehouse Connection
 
-Without a data warehouse connection, paste SQL results or upload CSV/Excel files for analysis and visualization. Claude can also write SQL queries for you to run manually, and then analyze the results you provide.
+Without a data warehouse connection, paste SQL results or upload CSV/Excel files for analysis and visualization. The agent can also write SQL queries for you to run manually, and then analyze the results you provide.
 
 ## Commands
 
@@ -54,7 +48,7 @@ Without a data warehouse connection, paste SQL results or upload CSV/Excel files
 ```
 You: /analyze What was our monthly revenue trend for the past 12 months, broken down by product line?
 
-Claude: [Writes SQL query] → [Executes against data warehouse] → [Generates trend chart]
+Agent: [Writes SQL query] → [Executes against data warehouse] → [Generates trend chart]
        → [Identifies key patterns: "Product line A grew 23% YoY while B was flat"]
        → [Validates results with sanity checks]
 ```
@@ -64,7 +58,7 @@ Claude: [Writes SQL query] → [Executes against data warehouse] → [Generates 
 ```
 You: /explore-data users table
 
-Claude: [Profiles table: 2.3M rows, 47 columns]
+Agent: [Profiles table: 2.3M rows, 47 columns]
        → [Reports: created_at has 0.2% nulls, email has 99.8% cardinality]
        → [Flags: status column has unexpected value "UNKNOWN" in 340 rows]
        → [Suggests: "High-value dimensions to explore: plan_type, signup_source, country"]
@@ -76,7 +70,7 @@ Claude: [Profiles table: 2.3M rows, 47 columns]
 You: /write-query I need a cohort retention analysis -- users grouped by signup month,
      showing what % are still active 1, 3, 6, and 12 months later. We use Snowflake.
 
-Claude: [Writes optimized Snowflake SQL with CTEs]
+Agent: [Writes optimized Snowflake SQL with CTEs]
        → [Adds comments explaining each step]
        → [Includes performance notes about partition pruning]
 ```
@@ -87,7 +81,7 @@ Claude: [Writes optimized Snowflake SQL with CTEs]
 You: /build-dashboard Create a sales dashboard with monthly revenue, top products,
      and regional breakdown. Here's the data: [pastes CSV]
 
-Claude: [Generates self-contained HTML file]
+Agent: [Generates self-contained HTML file]
        → [Includes interactive Chart.js visualizations]
        → [Adds dropdown filters for region and time period]
        → [Opens in browser for review]
@@ -98,7 +92,7 @@ Claude: [Generates self-contained HTML file]
 ```
 You: /validate [shares analysis document]
 
-Claude: [Reviews methodology] → [Checks for survivorship bias in churn analysis]
+Agent: [Reviews methodology] → [Checks for survivorship bias in churn analysis]
        → [Verifies aggregation logic] → [Flags: "Denominator excludes trial users
           which could overstate conversion rate by ~5pp"]
        → [Confidence: "Ready to share with noted caveat"]
@@ -117,4 +111,4 @@ This plugin works best when connected to your data infrastructure. Add MCP serve
 - **Data Orchestration**: Airflow, dbt, Dagster, Prefect
 - **Data Ingestion**: Fivetran, Airbyte, Stitch
 
-Configure MCP servers in your `.mcp.json` or Claude Code settings to enable direct data access.
+Configure tool connectors (MCP servers or equivalent) to enable direct data access.

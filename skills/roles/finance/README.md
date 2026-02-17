@@ -1,14 +1,8 @@
-# Finance & Accounting Plugin
+# Finance & Accounting Skill Pack
 
-A finance and accounting plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Supports month-end close, journal entry preparation, account reconciliation, financial statement generation, variance analysis, and SOX audit support.
+Month-end close, journal entry preparation, account reconciliation, financial statement generation, variance analysis, and SOX audit support.
 
-> **Important**: This plugin assists with finance and accounting workflows but does not provide financial, tax, or audit advice. All outputs should be reviewed by qualified financial professionals before use in financial reporting, regulatory filings, or audit documentation.
-
-## Installation
-
-```bash
-claude plugins add knowledge-work-plugins/finance
-```
+> **Important**: This skill pack assists with finance and accounting workflows but does not provide financial, tax, or audit advice. All outputs should be reviewed by qualified financial professionals before use in financial reporting, regulatory filings, or audit documentation.
 
 ## Commands
 
@@ -58,7 +52,7 @@ claude plugins add knowledge-work-plugins/finance
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](CONNECTORS.md).
 
-This plugin works best when connected to your financial data sources via MCP servers. Add the relevant servers to your `.mcp.json`:
+This skill pack works best when connected to your financial data sources via tool connectors (MCP servers or equivalent):
 
 ### ERP / Accounting System
 
@@ -80,7 +74,7 @@ Connect your BI platform (e.g., Tableau, Looker) to pull dashboards, KPIs, and t
 
 ## Configuration
 
-Add your data source MCP servers to the `mcpServers` section of `.mcp.json` in this plugin directory. The `recommendedCategories` field lists the types of integrations that enhance this plugin's capabilities:
+Connect your data sources via tool connectors. The following categories of integrations enhance this skill pack's capabilities:
 
 - `erp-accounting` — ERP or accounting system for GL, subledger, and JE data
 - `data-warehouse` — Data warehouse for financial queries and historical data

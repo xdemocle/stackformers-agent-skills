@@ -12,16 +12,8 @@ __pycache__/
 dist/
 build/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
 # Generated outputs
 outputs/
-*.xlsx
-*.pptx
-*.pdf
-*.docx
 
 # Documentation sources - internal only
 docs/

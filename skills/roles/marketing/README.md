@@ -1,12 +1,6 @@
-# Marketing Plugin
+# Marketing Skill Pack
 
-A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice management, competitive analysis, and performance reporting.
-
-## Installation
-
-```bash
-claude plugins add knowledge-work-plugins/marketing
-```
+Content creation, campaign planning, brand voice management, competitive analysis, and performance reporting.
 
 ## Commands
 
@@ -44,7 +38,7 @@ Tone: Authoritative but approachable
 Length: 1200 words
 ```
 
-Claude will generate a structured blog post draft with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
+The agent will generate a structured blog post draft with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
 
 ### Planning a Campaign
 
@@ -56,7 +50,7 @@ Timeline: 6 weeks
 Budget range: $20,000-$30,000
 ```
 
-Claude will produce a campaign brief covering objectives, audience segmentation, key messages, channel strategy, a week-by-week content calendar, and KPIs to track.
+The agent will produce a campaign brief covering objectives, audience segmentation, key messages, channel strategy, a week-by-week content calendar, and KPIs to track.
 
 ### Reviewing Content Against Brand Guidelines
 
@@ -65,7 +59,7 @@ Claude will produce a campaign brief covering objectives, audience segmentation,
 [paste your draft content]
 ```
 
-If your brand style guide is configured in local settings, Claude will check your content against voice, tone, terminology, and messaging pillars. If not configured, Claude will ask about your guidelines or provide a generic review for clarity, consistency, and professionalism.
+If your brand style guide is configured in local settings, the agent will check your content against voice, tone, terminology, and messaging pillars. If not configured, the agent will ask about your guidelines or provide a generic review for clarity, consistency, and professionalism.
 
 ## Configuration
 

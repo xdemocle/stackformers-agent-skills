@@ -1,12 +1,6 @@
-# Sales Plugin
+# Sales Skill Pack
 
-A sales productivity plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Helps with prospecting, outreach, pipeline management, call preparation, and deal strategy. Works with any sales team — standalone with web search and your input, supercharged when you connect your CRM, email, and other tools.
-
-## Installation
-
-```bash
-claude plugins add knowledge-work-plugins/sales
-```
+Prospecting, outreach, pipeline management, call preparation, and deal strategy. Works with any sales team — standalone with web search and your input, supercharged when you connect your CRM, email, and other tools.
 
 ## Commands
 
@@ -22,7 +16,7 @@ All commands work **standalone** (paste notes, upload CSV, or describe your situ
 
 ## Skills
 
-Domain knowledge Claude uses automatically when relevant:
+Domain knowledge the agent uses automatically when relevant:
 
 | Skill                      | Description                                                                                                          |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -116,7 +110,7 @@ See [CONNECTORS.md](CONNECTORS.md) for the full list of supported integrations, 
 
 ## Settings
 
-Create a local settings file at `sales/.claude/settings.local.json` to personalize:
+Create a local settings file to personalize:
 
 ```json
 {

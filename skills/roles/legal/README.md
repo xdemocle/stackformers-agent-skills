@@ -1,8 +1,8 @@
-# Legal Productivity Plugin
+# Legal Productivity Skill Pack
 
-An AI-powered productivity plugin for in-house legal teams, primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Automates contract review, NDA triage, compliance workflows, legal briefings, and templated responses -- all configurable to your organization's specific playbook and risk tolerances.
+Contract review, NDA triage, compliance workflows, legal briefings, and templated responses -- all configurable to your organization's specific playbook and risk tolerances.
 
-> **Disclaimer:** This plugin assists with legal workflows but does not provide legal advice. Always verify conclusions with qualified legal professionals. AI-generated analysis should be reviewed by licensed attorneys before being relied upon for legal decisions.
+> **Disclaimer:** This skill pack assists with legal workflows but does not provide legal advice. Always verify conclusions with qualified legal professionals. AI-generated analysis should be reviewed by licensed attorneys before being relied upon for legal decisions.
 
 ## Target Personas
 
@@ -11,25 +11,13 @@ An AI-powered productivity plugin for in-house legal teams, primarily designed f
 - **Privacy / Compliance** -- Data protection regulations, DPA reviews, data subject requests, regulatory monitoring
 - **Litigation Support** -- Discovery holds, document review prep, case briefings
 
-## Installation
-
-```
-claude plugins add knowledge-work-plugins/legal
-```
-
 ## Quick Start
 
-### 1. Install the plugin
-
-```
-claude plugins add knowledge-work-plugins/legal
-```
-
-### 2. Configure your playbook
+### 1. Configure your playbook
 
 Create a local settings file to define your organization's standard positions. This is where you encode your team's negotiation playbook, risk tolerances, and standard terms.
 
-In your project's `.claude/` directory, create a `legal.local.md` file:
+Create a `legal.local.md` file in your project:
 
 ```markdown
 # Legal Playbook Configuration
@@ -83,9 +71,9 @@ In your project's `.claude/` directory, create a `legal.local.md` file:
 Configure paths to your template files or define inline templates for common inquiries.
 ```
 
-### 3. Connect your tools
+### 2. Connect your tools
 
-The plugin works best when connected to your existing tools via MCP. Pre-configured servers include Slack, Box, Egnyte, Atlassian, and Microsoft 365. See [CONNECTORS.md](CONNECTORS.md) for the full list of supported categories and options.
+The skill pack works best when connected to your existing tools via connectors (MCP servers or equivalent). See [CONNECTORS.md](CONNECTORS.md) for the full list of supported categories and options.
 
 ## Commands
 
@@ -194,7 +182,7 @@ The plugin connects to your tools through MCP (Model Context Protocol) servers:
 
 See [CONNECTORS.md](CONNECTORS.md) for the full list of supported integrations, including CLM, CRM, e-signature, and additional options.
 
-Configure connections in `.mcp.json`. The plugin gracefully degrades when tools are unavailable -- it will note gaps and suggest manual checks.
+The skill pack gracefully degrades when tools are unavailable -- it will note gaps and suggest manual checks.
 
 ## Customization
 
@@ -218,8 +206,6 @@ Customize the risk assessment matrix to match your organization's risk appetite 
 
 ```
 legal/
-├── .claude-plugin/plugin.json
-├── .mcp.json
 ├── README.md
 ├── commands/
 │   ├── review-contract.md

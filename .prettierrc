@@ -4,7 +4,7 @@
   "printWidth": 120,
   "overrides": [
     {
-      "files": "*.{json,md,ipynb}",
+      "files": "*.{json,md}",
       "options": {
         "printWidth": 999,
         "trailingComma": "none"

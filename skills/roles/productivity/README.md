@@ -1,20 +1,14 @@
-# Productivity Plugin
+# Productivity Skill Pack
 
-A productivity plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Task management, workplace memory, and a visual dashboard — Claude learns your people, projects, and terminology so it can act like a colleague, not a chatbot.
-
-## Installation
-
-```
-claude plugins add knowledge-work-plugins/productivity
-```
+Task management, workplace memory, and a visual dashboard — the agent learns your people, projects, and terminology so it can act like a colleague, not a chatbot.
 
 ## What It Does
 
-This plugin gives Claude a persistent understanding of your work:
+This skill pack gives the agent a persistent understanding of your work:
 
-- **Task management** — A markdown task list (`TASKS.md`) that Claude reads, writes, and executes against. Add tasks naturally, and Claude tracks status, triages stale items, and syncs with external tools.
-- **Workplace memory** — A two-tier memory system that teaches Claude your shorthand, people, projects, and terminology. Say "ask todd to do the PSR for oracle" and Claude knows exactly who, what, and which deal.
-- **Visual dashboard** — A local HTML file that gives you a board view of your tasks and a live view of what Claude knows about your workplace. Edit from the board or the file — they stay in sync.
+- **Task management** — A markdown task list (`TASKS.md`) that the agent reads, writes, and executes against. Add tasks naturally, and the agent tracks status, triages stale items, and syncs with external tools.
+- **Workplace memory** — A two-tier memory system that teaches the agent your shorthand, people, projects, and terminology. Say "ask todd to do the PSR for oracle" and the agent knows exactly who, what, and which deal.
+- **Visual dashboard** — A local HTML file that gives you a board view of your tasks and a live view of what the agent knows about your workplace. Edit from the board or the file — they stay in sync.
 
 ## Commands
 
@@ -26,10 +20,10 @@ This plugin gives Claude a persistent understanding of your work:
 
 ## Skills
 
-| Skill               | Description                                                                               |
-| ------------------- | ----------------------------------------------------------------------------------------- |
-| `memory-management` | Two-tier memory system — CLAUDE.md for working memory, memory/ directory for deep storage |
-| `task-management`   | Markdown-based task tracking using a shared TASKS.md file                                 |
+| Skill               | Description                                                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------- |
+| `memory-management` | Two-tier memory system — working memory file for hot cache, memory/ directory for deep storage |
+| `task-management`   | Markdown-based task tracking using a shared TASKS.md file                                      |
 
 ## Example Workflows
 
@@ -38,7 +32,7 @@ This plugin gives Claude a persistent understanding of your work:
 ```
 You: /start
 
-Claude: [Creates TASKS.md, CLAUDE.md, memory/ directory, and dashboard.html]
+Agent: [Creates TASKS.md, working memory file, memory/ directory, and dashboard.html]
         [Opens the dashboard in your browser]
         [Asks about your role, team, and current priorities to seed memory]
 ```
@@ -50,7 +44,7 @@ You: I need to review the budget proposal for Sarah by Friday,
      draft the Q2 roadmap after syncing with Greg, and follow up
      on the API spec from the Platform team
 
-Claude: [Adds all three tasks to TASKS.md with context]
+Agent: [Adds all three tasks to TASKS.md with context]
         [Dashboard updates automatically]
 ```
 
@@ -59,7 +53,7 @@ Claude: [Adds all three tasks to TASKS.md with context]
 ```
 You: /update --comprehensive
 
-Claude: [Scans email, calendar, and chat for new action items]
+Agent: [Scans email, calendar, and chat for new action items]
         [Flags: "Budget proposal review is due tomorrow — still open"]
         [Suggests: "New person mentioned in 3 threads: Jamie Park,
          Design Lead — add to memory?"]
@@ -68,12 +62,12 @@ Claude: [Scans email, calendar, and chat for new action items]
 
 ### Workplace Shorthand
 
-Once memory is populated, Claude decodes your shorthand instantly:
+Once memory is populated, the agent decodes your shorthand instantly:
 
 ```
 You: ask todd to do the PSR for oracle
 
-Claude: "Ask Todd Martinez (Finance lead) to prepare the Pipeline
+Agent: "Ask Todd Martinez (Finance lead) to prepare the Pipeline
          Status Report for the Oracle Systems deal ($2.3M, closing Q2)"
 ```
 

@@ -1,16 +1,10 @@
-# Product Management Plugin
+# Product Management Skill Pack
 
-A product management plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Covers the full PM workflow: writing feature specs, managing roadmaps, communicating with stakeholders, synthesizing user research, analyzing competitors, and tracking product metrics.
-
-## Installation
-
-```
-claude plugins add knowledge-work-plugins/product-management
-```
+Full PM workflow: writing feature specs, managing roadmaps, communicating with stakeholders, synthesizing user research, analyzing competitors, and tracking product metrics.
 
 ## What It Does
 
-This plugin gives you an AI-powered product management partner that can help with:
+This skill pack gives you an AI-powered product management partner that can help with:
 
 - **Feature Specs & PRDs** — Generate structured product requirements documents from a problem statement or feature idea. Includes user stories, requirements prioritization, success metrics, and scope management.
 - **Roadmap Planning** — Create, update, and reprioritize your product roadmap. Supports Now/Next/Later, quarterly themes, and OKR-aligned formats with dependency mapping.
@@ -47,40 +41,40 @@ This plugin gives you an AI-powered product management partner that can help wit
 
 ```
 You: /write-spec
-Claude: What feature or problem are you speccing out?
+Agent: What feature or problem are you speccing out?
 You: We need to add SSO support for enterprise customers
-Claude: [Asks about target users, constraints, success metrics]
-Claude: [Generates full PRD with problem statement, user stories, requirements, success metrics, open questions]
+Agent: [Asks about target users, constraints, success metrics]
+Agent: [Generates full PRD with problem statement, user stories, requirements, success metrics, open questions]
 ```
 
 ### Preparing a Stakeholder Update
 
 ```
 You: /stakeholder-update
-Claude: What type of update? (weekly, monthly, launch, ad-hoc)
+Agent: What type of update? (weekly, monthly, launch, ad-hoc)
 You: Weekly update for the exec team
-Claude: [Pulls context from project management tool, chat, and docs]
-Claude: [Generates executive summary with progress, decisions, risks, and next milestones]
+Agent: [Pulls context from project management tool, chat, and docs]
+Agent: [Generates executive summary with progress, decisions, risks, and next milestones]
 ```
 
 ### Synthesizing User Research
 
 ```
 You: /synthesize-research
-Claude: What research do you want to synthesize? You can paste interview notes, upload files, or I can pull from connected sources.
+Agent: What research do you want to synthesize? You can paste interview notes, upload files, or I can pull from connected sources.
 You: [Pastes 8 interview transcripts]
-Claude: [Identifies themes, patterns, and insights across interviews]
-Claude: [Generates synthesis with key findings, personas, opportunity areas, and evidence]
+Agent: [Identifies themes, patterns, and insights across interviews]
+Agent: [Generates synthesis with key findings, personas, opportunity areas, and evidence]
 ```
 
 ### Competitive Analysis
 
 ```
 You: /competitive-brief
-Claude: Which competitor(s) or feature area do you want to analyze?
+Agent: Which competitor(s) or feature area do you want to analyze?
 You: Compare our onboarding flow to [competitor A] and [competitor B]
-Claude: [Researches competitor onboarding approaches]
-Claude: [Generates brief with feature comparison, strengths/weaknesses, and strategic implications]
+Agent: [Researches competitor onboarding approaches]
+Agent: [Generates brief with feature comparison, strengths/weaknesses, and strategic implications]
 ```
 
 ## Data Sources
