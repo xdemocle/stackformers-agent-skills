@@ -2,6 +2,10 @@
 
 > Project instructions for AI coding agents. This file is automatically picked up by compatible AI IDEs and agents.
 
+## Project Rules
+
+See [AGENTS.md](./AGENTS.md) for all project rules and conventions.
+
 ## Project Identity
 
 - **Repo**: `ai-agent-skills`
