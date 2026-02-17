@@ -8,7 +8,7 @@ See [AGENTS.md](./AGENTS.md) for all project rules and conventions.
 
 ## Project Identity
 
-- **Repo**: `ai-agent-skills`
+- **Repo**: `stackformers-agent-skills`
 - **Description**: An agnostic collection of AI Agent Skills
 - **Standard**: [Agent Skills open standard](https://agentskills.io)
 - **Scope**: Platform-agnostic, vendor-neutral skill collection
@@ -121,7 +121,7 @@ Skills load in layers to minimize token usage:
 ## Folder Structure
 
 ```
-ai-agent-skills/
+stackformers-agent-skills/
 ├── skills/
 │   ├── roles/                    # Role-based skill packs
 │   │   ├── productivity/

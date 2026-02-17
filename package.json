@@ -1,13 +1,13 @@
 {
-  "name": "ai-agent-skills",
-  "description": "A cross-platform collection of AI Agent Skills",
+  "name": "stackformers-agent-skills",
+  "description": "A cross-platform collection of AI Agent Skills by https://stackformers.cc",
   "version": "0.0.1",
   "author": "xdemocle",
   "license": "MIT",
-  "homepage": "https://github.com/xdemocle/ai-agent-skills",
+  "homepage": "https://github.com/xdemocle/stackformers-agent-skills",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xdemocle/ai-agent-skills.git"
+    "url": "https://github.com/xdemocle/stackformers-agent-skills.git"
   },
   "keywords": [
     "ai",

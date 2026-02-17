@@ -187,7 +187,7 @@ The skills in this collection are starting points. They become much more useful 
 ## Project Structure
 
 ```
-ai-agent-skills/
+stackformers-agent-skills/
 ├── skills/                       # Skill collection
 │   ├── roles/                    # Role-based skill packs
 │   │   ├── customer-support/
