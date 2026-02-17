@@ -131,11 +131,26 @@ ai-agent-skills/
 │   │   ├── marketing/
 │   │   ├── legal/
 │   │   ├── finance/
-│   │   └── data/
+│   │   ├── data/
+│   │   └── engineering/
+│   │       └── project-orchestrator/
 │   └── domain/                   # Domain-specific skills
-│       ├── brand-guidelines/
-│       ├── code-review/
-│       └── ...
+│       ├── applying-brand-guidelines/
+│       ├── backend-architect/
+│       ├── code-reviewer/
+│       ├── database-engineer/
+│       ├── error-detective/
+│       ├── frontend-specialist/
+│       ├── fullstack-developer/
+│       ├── integration-test-builder/
+│       ├── migration-specialist/
+│       ├── monitoring-architect/
+│       ├── performance-profiler/
+│       ├── refactoring-expert/
+│       ├── security-auditor/
+│       ├── test-architect/
+│       ├── ui-ux-designer/
+│       └── unit-test-generator/
 ├── templates/
 │   └── skill-template/
 │       └── SKILL.md
