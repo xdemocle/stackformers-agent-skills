@@ -37,12 +37,14 @@ Gather the following from the user. If not provided, ask before proceeding:
 Generate a campaign brief with the following sections:
 
 ### 1. Campaign Overview
+
 - Campaign name suggestion
 - One-sentence campaign summary
 - Primary objective with a specific, measurable goal
 - Secondary objectives (if applicable)
 
 ### 2. Target Audience
+
 - Primary audience segment with description
 - Secondary audience segment (if applicable)
 - Audience pain points and motivations
@@ -50,25 +52,31 @@ Generate a campaign brief with the following sections:
 - Buying stage alignment (awareness, consideration, decision)
 
 ### 3. Key Messages
+
 - Core campaign message (one sentence)
 - 3-4 supporting messages tailored to audience pain points
 - Message variations by channel (if different tones are needed)
 - Proof points or evidence to support each message
 
 ### 4. Channel Strategy
+
 Recommend channels based on audience and goal. For each channel, include:
+
 - Why this channel fits the audience and objective
 - Content format recommendations
 - Estimated effort level (low, medium, high)
 - Budget allocation suggestion (if budget was provided)
 
 Consider channels from:
+
 - Owned: blog, email, website, social media profiles
 - Earned: PR, influencer partnerships, guest posts, community engagement
 - Paid: search ads, social ads, display, sponsored content, events
 
 ### 5. Content Calendar
+
 Create a week-by-week (or day-by-day for short campaigns) content calendar:
+
 - What content to produce each week
 - Which channel each piece targets
 - Key milestones and deadlines
@@ -77,17 +85,21 @@ Create a week-by-week (or day-by-day for short campaigns) content calendar:
 Format as a table:
 
 | Week | Content Piece | Channel | Owner/Notes | Status |
-|------|--------------|---------|-------------|--------|
+| ---- | ------------- | ------- | ----------- | ------ |
 
 ### 6. Content Pieces Needed
+
 List every content asset required for the campaign:
+
 - Asset name and type (blog post, email, social post, ad creative, landing page, etc.)
 - Brief description of what it should contain
 - Priority (must-have vs. nice-to-have)
 - Suggested timeline for creation
 
 ### 7. Success Metrics
+
 Define KPIs aligned to the campaign objective:
+
 - Primary KPI with target number
 - Secondary KPIs (3-5)
 - How each metric will be tracked
@@ -96,15 +108,18 @@ Define KPIs aligned to the campaign objective:
 If ~~product analytics is connected, reference any available historical performance benchmarks to inform targets.
 
 ### 8. Budget Allocation (if budget provided)
+
 - Breakdown by channel or activity
 - Production costs vs. distribution costs
 - Contingency recommendation (typically 10-15%)
 
 ### 9. Risks and Mitigations
+
 - 2-3 potential risks (timeline, audience mismatch, channel underperformance)
 - Mitigation strategy for each
 
 ### 10. Next Steps
+
 - Immediate action items to kick off the campaign
 - Stakeholder approvals needed
 - Key decision points
@@ -114,6 +129,7 @@ If ~~product analytics is connected, reference any available historical performa
 Present the full campaign brief with clear headings and formatting. After the brief, ask:
 
 "Would you like me to:
+
 - Dive deeper into any section?
 - Draft specific content pieces from the calendar?
 - Create a competitive analysis to inform the messaging?

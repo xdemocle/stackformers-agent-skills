@@ -52,6 +52,7 @@ Run through this checklist before sharing any analysis with stakeholders.
 **The problem**: A many-to-many join silently multiplies rows, inflating counts and sums.
 
 **How to detect**:
+
 ```sql
 -- Check row count before and after join
 SELECT COUNT(*) FROM table_a;  -- 1,000
@@ -59,6 +60,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 ```
 
 **How to prevent**:
+
 - Always check row counts after joins
 - If counts increase, investigate the join relationship (is it really 1:1 or 1:many?)
 - Use `COUNT(DISTINCT a.id)` instead of `COUNT(*)` when counting entities through joins
@@ -68,6 +70,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **The problem**: Analyzing only entities that exist today, ignoring those that were deleted, churned, or failed.
 
 **Examples**:
+
 - Analyzing user behavior of "current users" misses churned users
 - Looking at "companies using our product" ignores those who evaluated and left
 - Studying properties of "successful" outcomes without "unsuccessful" ones
@@ -79,6 +82,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **The problem**: Comparing a partial period to a full period.
 
 **Examples**:
+
 - "January revenue is $500K vs. December's $800K" -- but January isn't over yet
 - "This week's signups are down" -- checked on Wednesday, comparing to a full prior week
 
@@ -89,6 +93,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **The problem**: The denominator changes between periods, making rates incomparable.
 
 **Examples**:
+
 - Conversion rate improves because you changed how you count "eligible" users
 - Churn rate changes because the definition of "active" was updated
 
@@ -99,6 +104,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **The problem**: Averaging pre-computed averages gives wrong results when group sizes differ.
 
 **Example**:
+
 - Group A: 100 users, average revenue $50
 - Group B: 10 users, average revenue $200
 - Wrong: Average of averages = ($50 + $200) / 2 = $125
@@ -111,6 +117,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **The problem**: Different data sources use different timezones, causing misalignment.
 
 **Examples**:
+
 - Event timestamps in UTC vs. user-facing dates in local time
 - Daily rollups that use different cutoff times
 
@@ -121,6 +128,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **The problem**: Segments are defined by the outcome you're measuring, creating circular logic.
 
 **Examples**:
+
 - "Users who completed onboarding have higher retention" -- obviously, they self-selected
 - "Power users generate more revenue" -- they became power users BY generating revenue
 
@@ -132,14 +140,14 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 
 For any key number in your analysis, verify it passes the "smell test":
 
-| Metric Type | Sanity Check |
-|---|---|
-| User counts | Does this match known MAU/DAU figures? |
-| Revenue | Is this in the right order of magnitude vs. known ARR? |
-| Conversion rates | Is this between 0% and 100%? Does it match dashboard figures? |
-| Growth rates | Is 50%+ MoM growth realistic, or is there a data issue? |
-| Averages | Is the average reasonable given what you know about the distribution? |
-| Percentages | Do segment percentages sum to ~100%? |
+| Metric Type      | Sanity Check                                                          |
+| ---------------- | --------------------------------------------------------------------- |
+| User counts      | Does this match known MAU/DAU figures?                                |
+| Revenue          | Is this in the right order of magnitude vs. known ARR?                |
+| Conversion rates | Is this between 0% and 100%? Does it match dashboard figures?         |
+| Growth rates     | Is 50%+ MoM growth realistic, or is there a data issue?               |
+| Averages         | Is the average reasonable given what you know about the distribution? |
+| Percentages      | Do segment percentages sum to ~100%?                                  |
 
 ### Cross-Validation Techniques
 
@@ -167,35 +175,43 @@ Every non-trivial analysis should include:
 ## Analysis: [Title]
 
 ### Question
+
 [The specific question being answered]
 
 ### Data Sources
+
 - Table: [schema.table_name] (as of [date])
 - Table: [schema.other_table] (as of [date])
 - File: [filename] (source: [where it came from])
 
 ### Definitions
+
 - [Metric A]: [Exactly how it's calculated]
 - [Segment X]: [Exactly how membership is determined]
 - [Time period]: [Start date] to [end date], [timezone]
 
 ### Methodology
+
 1. [Step 1 of the analysis approach]
 2. [Step 2]
 3. [Step 3]
 
 ### Assumptions and Limitations
+
 - [Assumption 1 and why it's reasonable]
 - [Limitation 1 and its potential impact on conclusions]
 
 ### Key Findings
+
 1. [Finding 1 with supporting evidence]
 2. [Finding 2 with supporting evidence]
 
 ### SQL Queries
+
 [All queries used, with comments]
 
 ### Caveats
+
 - [Things the reader should know before acting on this]
 ```
 

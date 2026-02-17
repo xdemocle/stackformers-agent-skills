@@ -18,18 +18,18 @@ This plugin gives Claude a persistent understanding of your work:
 
 ## Commands
 
-| Command | What it does |
-|---------|--------------|
-| `/start` | Initialize tasks + memory, open the dashboard |
-| `/update` | Triage stale items, check memory for gaps, sync from external tools if applicable |
-| `/update --comprehensive` | Deep scan email, calendar, chat — flag missed todos and suggest new memories |
+| Command                   | What it does                                                                      |
+| ------------------------- | --------------------------------------------------------------------------------- |
+| `/start`                  | Initialize tasks + memory, open the dashboard                                     |
+| `/update`                 | Triage stale items, check memory for gaps, sync from external tools if applicable |
+| `/update --comprehensive` | Deep scan email, calendar, chat — flag missed todos and suggest new memories      |
 
 ## Skills
 
-| Skill | Description |
-|-------|-------------|
+| Skill               | Description                                                                               |
+| ------------------- | ----------------------------------------------------------------------------------------- |
 | `memory-management` | Two-tier memory system — CLAUDE.md for working memory, memory/ directory for deep storage |
-| `task-management` | Markdown-based task tracking using a shared TASKS.md file |
+| `task-management`   | Markdown-based task tracking using a shared TASKS.md file                                 |
 
 ## Example Workflows
 
@@ -86,6 +86,7 @@ No clarifying questions. No round trips.
 Connect your communication and project management tools for the best experience. Without them, manage tasks and memory manually.
 
 **Included MCP connections:**
+
 - Chat (Slack) for team context and message scanning
 - Email and calendar (Microsoft 365) for action item discovery
 - Knowledge base (Notion) for reference documents
@@ -93,4 +94,5 @@ Connect your communication and project management tools for the best experience.
 - Office suite (Microsoft 365) for documents
 
 **Additional options:**
+
 - See [CONNECTORS.md](CONNECTORS.md) for alternative tools in each category

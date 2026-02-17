@@ -12,11 +12,11 @@ claude plugins add knowledge-work-plugins/sales
 
 Explicit workflows you invoke with a slash command:
 
-| Command | Description |
-|---|---|
-| `/call-summary` | Process call notes or transcript — extract action items, draft follow-up, generate internal summary |
-| `/forecast` | Generate a weighted sales forecast — upload CSV or describe your pipeline, set quota, get projections |
-| `/pipeline-review` | Analyze pipeline health — prioritize deals, flag risks, get weekly action plan |
+| Command            | Description                                                                                           |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| `/call-summary`    | Process call notes or transcript — extract action items, draft follow-up, generate internal summary   |
+| `/forecast`        | Generate a weighted sales forecast — upload CSV or describe your pipeline, set quota, get projections |
+| `/pipeline-review` | Analyze pipeline health — prioritize deals, flag risks, get weekly action plan                        |
 
 All commands work **standalone** (paste notes, upload CSV, or describe your situation) and get **supercharged** with MCP connectors.
 
@@ -24,14 +24,14 @@ All commands work **standalone** (paste notes, upload CSV, or describe your situ
 
 Domain knowledge Claude uses automatically when relevant:
 
-| Skill | Description |
-|---|---|
-| `account-research` | Research a company or person — web search for company intel, key contacts, recent news, hiring signals |
-| `call-prep` | Prepare for sales calls — account context, attendee research, suggested agenda, discovery questions |
-| `daily-briefing` | Prioritized daily sales briefing — meetings, pipeline alerts, email priorities, suggested actions |
-| `draft-outreach` | Research-first outreach — research the prospect, then draft personalized email and LinkedIn messages |
+| Skill                      | Description                                                                                                          |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `account-research`         | Research a company or person — web search for company intel, key contacts, recent news, hiring signals               |
+| `call-prep`                | Prepare for sales calls — account context, attendee research, suggested agenda, discovery questions                  |
+| `daily-briefing`           | Prioritized daily sales briefing — meetings, pipeline alerts, email priorities, suggested actions                    |
+| `draft-outreach`           | Research-first outreach — research the prospect, then draft personalized email and LinkedIn messages                 |
 | `competitive-intelligence` | Research competitors — product comparison, pricing intel, recent releases, differentiation matrix, sales talk tracks |
-| `create-an-asset` | Generate custom sales assets — landing pages, decks, one-pagers, workflow demos tailored to your prospect |
+| `create-an-asset`          | Generate custom sales assets — landing pages, decks, one-pagers, workflow demos tailored to your prospect            |
 
 ## Example Workflows
 
@@ -62,6 +62,7 @@ Upload a CSV or describe your pipeline. Get a health score, deal prioritization,
 ### Researching a Prospect
 
 Just ask naturally:
+
 ```
 Research Acme Corp before my call tomorrow
 ```
@@ -88,15 +89,15 @@ The `competitive-intelligence` skill researches both companies and builds a diff
 
 Every command and skill works without any integrations:
 
-| What You Can Do | Standalone | Supercharged With |
-|-----------------|------------|-------------------|
-| Process call notes | Paste notes/transcript | Transcripts MCP (e.g. Gong, Fireflies) |
-| Forecast pipeline | Upload CSV, paste deals | CRM MCP |
-| Review pipeline | Upload CSV, describe deals | CRM MCP |
-| Research prospects | Web search | Enrichment MCP (e.g. Clay, ZoomInfo) |
-| Prep for calls | Describe meeting | CRM, Email, Calendar MCPs |
-| Draft outreach | Web search + your context | CRM, Email MCPs |
-| Competitive intel | Web search | CRM (win/loss data), Docs (battlecards) |
+| What You Can Do    | Standalone                 | Supercharged With                       |
+| ------------------ | -------------------------- | --------------------------------------- |
+| Process call notes | Paste notes/transcript     | Transcripts MCP (e.g. Gong, Fireflies)  |
+| Forecast pipeline  | Upload CSV, paste deals    | CRM MCP                                 |
+| Review pipeline    | Upload CSV, describe deals | CRM MCP                                 |
+| Research prospects | Web search                 | Enrichment MCP (e.g. Clay, ZoomInfo)    |
+| Prep for calls     | Describe meeting           | CRM, Email, Calendar MCPs               |
+| Draft outreach     | Web search + your context  | CRM, Email MCPs                         |
+| Competitive intel  | Web search                 | CRM (win/loss data), Docs (battlecards) |
 
 ## MCP Integrations
 
@@ -104,12 +105,12 @@ Every command and skill works without any integrations:
 
 Connect your tools for a richer experience:
 
-| Category | Examples | What It Enables |
-|---|---|---|
-| **CRM** | HubSpot, Close | Pipeline data, account history, contact records |
-| **Transcripts** | Fireflies, Gong, Chorus | Call recordings, transcripts, key moments |
-| **Enrichment** | Clay, ZoomInfo, Apollo | Company and contact data enrichment |
-| **Chat** | Slack, Teams | Internal discussions, colleague intel |
+| Category        | Examples                | What It Enables                                 |
+| --------------- | ----------------------- | ----------------------------------------------- |
+| **CRM**         | HubSpot, Close          | Pipeline data, account history, contact records |
+| **Transcripts** | Fireflies, Gong, Chorus | Call recordings, transcripts, key moments       |
+| **Enrichment**  | Clay, ZoomInfo, Apollo  | Company and contact data enrichment             |
+| **Chat**        | Slack, Teams            | Internal discussions, colleague intel           |
 
 See [CONNECTORS.md](CONNECTORS.md) for the full list of supported integrations, including email, calendar, and additional CRM options.
 
@@ -128,14 +129,8 @@ Create a local settings file at `sales/.claude/settings.local.json` to personali
   },
   "product": {
     "name": "Your Product",
-    "value_props": [
-      "Key value proposition 1",
-      "Key value proposition 2"
-    ],
-    "competitors": [
-      "Competitor A",
-      "Competitor B"
-    ]
+    "value_props": ["Key value proposition 1", "Key value proposition 2"],
+    "competitors": ["Competitor A", "Competitor B"]
   }
 }
 ```

@@ -40,12 +40,14 @@ Generate a comprehensive data profile for a table or uploaded file. Understand i
 Run the following profiling checks:
 
 **Table-level metrics:**
+
 - Total row count
 - Column count and types breakdown
 - Approximate table size (if available from metadata)
 - Date range coverage (min/max of date columns)
 
 **Column-level metrics for each column:**
+
 - Data type (and whether it matches expected type)
 - Null count and null rate (%)
 - Distinct count and cardinality (distinct / total)

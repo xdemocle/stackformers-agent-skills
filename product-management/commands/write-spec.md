@@ -14,6 +14,7 @@ Write a feature specification or product requirements document (PRD).
 ### 1. Understand the Feature
 
 Ask the user what they want to spec. Accept any of:
+
 - A feature name ("SSO support")
 - A problem statement ("Enterprise customers keep asking for centralized auth")
 - A user request ("Users want to export their data as CSV")
@@ -32,16 +33,19 @@ Ask the user for the following. Be conversational — do not dump all questions 
 ### 3. Pull Context from Connected Tools
 
 If **~~project tracker** is connected:
+
 - Search for related tickets, epics, or features
 - Pull in any existing requirements or acceptance criteria
 - Identify dependencies on other work items
 
 If **~~knowledge base** is connected:
+
 - Search for related research documents, prior specs, or design docs
 - Pull in relevant user research findings
 - Find related meeting notes or decision records
 
 If **~~design** is connected:
+
 - Pull related mockups, wireframes, or design explorations
 - Search for design system components relevant to the feature
 
@@ -63,6 +67,7 @@ Produce a structured PRD with these sections. See the **feature-spec** skill for
 ### 5. Review and Iterate
 
 After generating the PRD:
+
 - Ask the user if any sections need adjustment
 - Offer to expand on specific sections
 - Offer to create follow-up artifacts (design brief, engineering ticket breakdown, stakeholder pitch)

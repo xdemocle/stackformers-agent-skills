@@ -14,16 +14,19 @@ Review and analyze product metrics, identify trends, and surface actionable insi
 ### 1. Gather Metrics Data
 
 If **~~product analytics** is connected:
+
 - Pull key product metrics for the relevant time period
 - Get comparison data (previous period, same period last year, targets)
 - Pull segment breakdowns if available
 
 If no analytics tool is connected, ask the user to provide:
+
 - The metrics and their values (paste a table, screenshot, or describe)
 - Comparison data (previous period, targets)
 - Any context on recent changes (launches, incidents, seasonality)
 
 Ask the user:
+
 - What time period to review? (last week, last month, last quarter)
 - What metrics to focus on? Or should we review the full product metrics suite?
 - Are there specific targets or goals to compare against?
@@ -38,6 +41,7 @@ If the user has not defined their metrics hierarchy, help them identify their No
 ### 3. Analyze Trends
 
 For each key metric:
+
 - **Current value**: What is the metric today?
 - **Trend**: Up, down, or flat compared to previous period? Over what timeframe?
 - **vs Target**: How does it compare to the goal or target?
@@ -45,6 +49,7 @@ For each key metric:
 - **Anomalies**: Any sudden changes, spikes, or drops?
 
 Identify correlations:
+
 - Do changes in one metric correlate with changes in another?
 - Are there leading indicators that predict lagging metric changes?
 - Do segment breakdowns reveal that an aggregate trend is driven by a specific cohort?
@@ -52,41 +57,52 @@ Identify correlations:
 ### 4. Generate the Review
 
 #### Summary
+
 2-3 sentences: overall product health, most notable changes, key callout.
 
 #### Metric Scorecard
+
 Table format for quick scanning:
 
-| Metric | Current | Previous | Change | Target | Status |
-|--------|---------|----------|--------|--------|--------|
-| [Metric] | [Value] | [Value] | [+/- %] | [Target] | [On track / At risk / Miss] |
+| Metric   | Current | Previous | Change  | Target   | Status                      |
+| -------- | ------- | -------- | ------- | -------- | --------------------------- |
+| [Metric] | [Value] | [Value]  | [+/- %] | [Target] | [On track / At risk / Miss] |
 
 #### Trend Analysis
+
 For each metric worth discussing:
+
 - What happened and how significant is the change
 - Why it likely happened (attribution based on known events, correlated metrics, segment analysis)
 - Whether this is a one-time event or a sustained trend
 
 #### Bright Spots
+
 What is going well:
+
 - Metrics beating targets
 - Positive trends to sustain
 - Segments or features showing strong performance
 
 #### Areas of Concern
+
 What needs attention:
+
 - Metrics missing targets or trending negatively
 - Early warning signals before they become problems
 - Metrics where we lack visibility or understanding
 
 #### Recommended Actions
+
 Specific next steps based on the analysis:
+
 - Investigations to run (dig deeper into a concerning trend)
 - Experiments to launch (test hypotheses about what could improve a metric)
 - Investments to make (double down on what is working)
 - Alerts to set (monitor a metric more closely)
 
 #### Context and Caveats
+
 - Known data quality issues
 - Events that affect comparability (outages, holidays, launches)
 - Metrics we should be tracking but are not yet
@@ -94,6 +110,7 @@ Specific next steps based on the analysis:
 ### 5. Follow Up
 
 After generating the review:
+
 - Ask if any metric needs deeper investigation
 - Offer to create a dashboard spec for ongoing monitoring
 - Offer to draft experiment proposals for areas of concern

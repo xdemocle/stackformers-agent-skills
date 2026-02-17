@@ -20,6 +20,7 @@ Multi-source research on a customer question, product topic, or account-related 
 ### 1. Parse the Research Request
 
 Identify what type of research is needed:
+
 - **Customer question**: Something a customer has asked that needs an answer (e.g., "Does our product support SSO with Okta?")
 - **Issue investigation**: Background on a reported problem (e.g., "Has this bug been reported before? What's the known workaround?")
 - **Account context**: History with a specific customer (e.g., "What did we tell Acme Corp last time they asked about this?")
@@ -30,16 +31,19 @@ Identify what type of research is needed:
 Search in priority order, adapting to what is connected:
 
 **Tier 1 — Internal Documentation (highest confidence):**
+
 - ~~knowledge base (if connected): product docs, runbooks, FAQs
 - ~~cloud storage: internal documents, specs, guides, past research
 - ~~CRM notes: previous answers to similar questions, account context
 
 **Tier 2 — Team Communications:**
+
 - ~~chat: search for the topic in relevant channels; check if teammates have discussed or answered this before
 - ~~email: search for previous correspondence on this topic
 - ~~support platform (if connected): check if this has been asked/resolved before
 
 **Tier 3 — External Sources:**
+
 - Web search: official documentation, blog posts, community forums
 - Public knowledge bases, help centers, release notes
 

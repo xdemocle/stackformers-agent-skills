@@ -8,12 +8,12 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 
 ## Connectors for this plugin
 
-| Category | Placeholder | Included servers | Other options |
-|----------|-------------|-----------------|---------------|
-| Chat | `~~chat` | Slack | Microsoft Teams |
-| Cloud storage | `~~cloud storage` | Box, Egnyte | Dropbox, SharePoint, Google Drive |
-| CLM | `~~CLM` | — | Ironclad, Agiloft |
-| CRM | `~~CRM` | — | Salesforce, HubSpot |
-| E-signature | `~~e-signature` | — | DocuSign, Adobe Sign |
-| Office suite | `~~office suite` | Microsoft 365 | Google Workspace |
-| Project tracker | `~~project tracker` | Atlassian (Jira/Confluence) | Linear, Asana |
+| Category        | Placeholder         | Included servers            | Other options                     |
+| --------------- | ------------------- | --------------------------- | --------------------------------- |
+| Chat            | `~~chat`            | Slack                       | Microsoft Teams                   |
+| Cloud storage   | `~~cloud storage`   | Box, Egnyte                 | Dropbox, SharePoint, Google Drive |
+| CLM             | `~~CLM`             | —                           | Ironclad, Agiloft                 |
+| CRM             | `~~CRM`             | —                           | Salesforce, HubSpot               |
+| E-signature     | `~~e-signature`     | —                           | DocuSign, Adobe Sign              |
+| Office suite    | `~~office suite`    | Microsoft 365               | Google Workspace                  |
+| Project tracker | `~~project tracker` | Atlassian (Jira/Confluence) | Linear, Asana                     |

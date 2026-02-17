@@ -1,0 +1,9 @@
+{
+  "name": "ai-agent-skills",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}

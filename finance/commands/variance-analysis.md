@@ -40,13 +40,16 @@ Decompose variances into underlying drivers, provide narrative explanations for 
 ### 1. Gather Data
 
 If ~~erp or ~~data warehouse is connected:
+
 - Pull actuals for both comparison periods at the detail level
 - Pull budget/forecast data if comparing to plan
 - Pull supporting operational metrics (headcount, volumes, rates)
 - Pull prior variance analyses for context
 
 If no data source is connected:
+
 > Connect ~~erp or ~~data warehouse to pull financial data automatically. To analyze manually, provide:
+>
 > 1. Actual data for both comparison periods (at account or line-item detail)
 > 2. Budget/forecast data (if comparing to plan)
 > 3. Any operational metrics that drive the financial results (headcount, volumes, pricing, etc.)
@@ -66,6 +69,7 @@ Total [Area]                  $XX,XXX    $XX,XXX    $X,XXX         X.X%
 Break down the total variance into constituent drivers. Use the appropriate decomposition method for the area:
 
 **Revenue Decomposition:**
+
 - **Volume effect:** Change in units/customers/transactions at prior period pricing
 - **Price/rate effect:** Change in pricing/ASP applied to current period volume
 - **Mix effect:** Shift between products/segments at different margin levels
@@ -73,6 +77,7 @@ Break down the total variance into constituent drivers. Use the appropriate deco
 - **Currency effect:** FX impact on international revenue (if applicable)
 
 **Operating Expense Decomposition:**
+
 - **Headcount-driven:** Salary and benefits changes from headcount additions/reductions
 - **Compensation changes:** Merit increases, promotions, bonus accruals
 - **Volume-driven:** Expenses that scale with business activity (hosting, commissions, travel)
@@ -81,12 +86,14 @@ Break down the total variance into constituent drivers. Use the appropriate deco
 - **Timing:** Expenses shifted between periods (prepaid amortization changes, contract timing)
 
 **CapEx Decomposition:**
+
 - **Project-level:** Variance by capital project vs approved budget
 - **Timing:** Projects ahead of or behind schedule
 - **Scope changes:** Approved scope expansions or reductions
 - **Cost overruns:** Unit cost increases vs plan
 
 **Headcount Decomposition:**
+
 - **Hiring pace:** Actual hires vs plan by department and level
 - **Attrition:** Unplanned departures and backfill timing
 - **Compensation mix:** Salary, bonus, equity, benefits variance
@@ -128,7 +135,7 @@ For each significant driver, generate a narrative explanation:
 >
 > [2-3 sentence explanation of what caused this variance, referencing specific operational factors, business events, or decisions. Include quantification where possible.]
 >
-> *Outlook:* [Whether this is expected to continue, reverse, or change in future periods]
+> _Outlook:_ [Whether this is expected to continue, reverse, or change in future periods]
 
 ### 6. Identify Unexplained Variances
 
@@ -137,11 +144,13 @@ If the decomposition does not fully explain the total variance, flag the residua
 > **Unexplained variance:** $X,XXX (X.X% of total)
 >
 > Possible causes to investigate:
+>
 > - [Suggested area 1]
 > - [Suggested area 2]
 > - [Suggested area 3]
 
 Ask the user for additional context on unexplained variances:
+
 - "Can you provide context on [specific unexplained item]?"
 - "Were there any business events in [period] that would explain [variance area]?"
 - "Is the [specific driver] variance expected or a surprise?"
@@ -149,6 +158,7 @@ Ask the user for additional context on unexplained variances:
 ### 7. Output
 
 Provide:
+
 1. Top-level variance summary
 2. Detailed variance decomposition by driver
 3. Waterfall analysis (text format, or suggest chart if spreadsheet tool is connected)

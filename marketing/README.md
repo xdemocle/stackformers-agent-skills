@@ -10,25 +10,25 @@ claude plugins add knowledge-work-plugins/marketing
 
 ## Commands
 
-| Command | Description |
-|---|---|
-| `/draft-content` | Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies |
-| `/campaign-plan` | Generate a full campaign brief with objectives, channels, content calendar, and success metrics |
-| `/brand-review` | Review content against your brand voice, style guide, and messaging pillars |
-| `/competitive-brief` | Research competitors and generate a positioning and messaging comparison |
-| `/performance-report` | Build a marketing performance report with key metrics, trends, and optimization recommendations |
-| `/seo-audit` | Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison |
-| `/email-sequence` | Design and draft multi-email sequences for nurture flows, onboarding, drip campaigns, and more |
+| Command               | Description                                                                                                                   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `/draft-content`      | Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies                            |
+| `/campaign-plan`      | Generate a full campaign brief with objectives, channels, content calendar, and success metrics                               |
+| `/brand-review`       | Review content against your brand voice, style guide, and messaging pillars                                                   |
+| `/competitive-brief`  | Research competitors and generate a positioning and messaging comparison                                                      |
+| `/performance-report` | Build a marketing performance report with key metrics, trends, and optimization recommendations                               |
+| `/seo-audit`          | Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison |
+| `/email-sequence`     | Design and draft multi-email sequences for nurture flows, onboarding, drip campaigns, and more                                |
 
 ## Skills
 
-| Skill | Description |
-|---|---|
-| `content-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
-| `campaign-planning` | Campaign frameworks, channel selection, content calendar creation, budget allocation, and success metrics |
-| `brand-voice` | Brand voice documentation, voice attributes, tone adaptation, style guide enforcement, and terminology management |
-| `competitive-analysis` | Competitive research methodology, messaging comparison, content gap analysis, positioning, and battlecard creation |
-| `performance-analytics` | Key metrics by channel, reporting templates, trend analysis, attribution modeling, and optimization frameworks |
+| Skill                   | Description                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `content-creation`      | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance   |
+| `campaign-planning`     | Campaign frameworks, channel selection, content calendar creation, budget allocation, and success metrics          |
+| `brand-voice`           | Brand voice documentation, voice attributes, tone adaptation, style guide enforcement, and terminology management  |
+| `competitive-analysis`  | Competitive research methodology, messaging comparison, content gap analysis, positioning, and battlecard creation |
+| `performance-analytics` | Key metrics by channel, reporting templates, trend analysis, attribution modeling, and optimization frameworks     |
 
 ## Example Workflows
 

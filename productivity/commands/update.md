@@ -28,6 +28,7 @@ Read `TASKS.md` and `memory/` directory. If they don't exist, suggest `/producti
 ### 2. Sync Tasks from External Sources
 
 Check for available task sources:
+
 - **Project tracker** (e.g. Asana, Linear, Jira) (if MCP available)
 - **GitHub Issues** (if in a repo): `gh issue list --assignee=@me`
 
@@ -35,18 +36,19 @@ If no sources are available, skip to Step 3.
 
 **Fetch tasks assigned to the user** (open/in-progress). Compare against TASKS.md:
 
-| External task | TASKS.md match? | Action |
-|---------------|-----------------|--------|
-| Found, not in TASKS.md | No match | Offer to add |
-| Found, already in TASKS.md | Match by title (fuzzy) | Skip |
-| In TASKS.md, not in external | No match | Flag as potentially stale |
-| Completed externally | In Active section | Offer to mark done |
+| External task                | TASKS.md match?        | Action                    |
+| ---------------------------- | ---------------------- | ------------------------- |
+| Found, not in TASKS.md       | No match               | Offer to add              |
+| Found, already in TASKS.md   | Match by title (fuzzy) | Skip                      |
+| In TASKS.md, not in external | No match               | Flag as potentially stale |
+| Completed externally         | In Active section      | Offer to mark done        |
 
 Present diff and let user decide what to add/complete.
 
 ### 3. Triage Stale Items
 
 Review Active tasks in TASKS.md and flag:
+
 - Tasks with due dates in the past
 - Tasks in Active for 30+ days
 - Tasks with no context (no person, no project)
@@ -71,6 +73,7 @@ Track what's fully decoded vs. what has gaps.
 ### 5. Fill Gaps
 
 Present unknown terms grouped:
+
 ```
 I found terms in your tasks I don't have context for:
 
@@ -86,6 +89,7 @@ Add answers to the appropriate memory files (people/, projects/, glossary.md).
 ### 6. Capture Enrichment
 
 Tasks often contain richer context than memory. Extract and update:
+
 - **Links** from tasks → add to project/people files
 - **Status changes** ("launch done") → update project status, demote from CLAUDE.md
 - **Relationships** ("Todd's sign-off on Maya's proposal") → cross-reference people
@@ -107,6 +111,7 @@ Everything in Default Mode, plus a deep scan of recent activity.
 ### Extra Step: Scan Activity Sources
 
 Gather data from available MCP sources:
+
 - **Chat:** Search recent messages, read active channels
 - **Email:** Search sent messages
 - **Documents:** List recently touched docs

@@ -44,6 +44,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 ## Content Generation by Type
 
 ### Blog Post
+
 - Engaging headline (provide 2-3 options)
 - Introduction with a hook (question, statistic, bold statement, or story)
 - 3-5 organized sections with descriptive subheadings
@@ -52,6 +53,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 - SEO considerations: suggest a primary keyword, include it in the headline and first paragraph, use related keywords in subheadings
 
 ### Social Media Post
+
 - Platform-appropriate format and length
 - Hook in the first line
 - Hashtag suggestions (3-5 relevant hashtags)
@@ -62,6 +64,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 - If Instagram: visual-first language, story-driven, hashtag block
 
 ### Email Newsletter
+
 - Subject line (provide 2-3 options with open-rate considerations)
 - Preview text
 - Greeting
@@ -71,6 +74,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 - Unsubscribe note reminder
 
 ### Landing Page Copy
+
 - Headline and subheadline
 - Hero section copy
 - Value propositions (3-4 benefit-driven bullets or sections)
@@ -80,6 +84,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 - SEO: meta title and meta description suggestions
 
 ### Press Release
+
 - Headline following press release conventions
 - Dateline and location
 - Lead paragraph (who, what, when, where, why)
@@ -89,6 +94,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 - Standard press release formatting
 
 ### Case Study
+
 - Title emphasizing the result
 - Customer overview (industry, size, challenge)
 - Challenge section
@@ -100,6 +106,7 @@ Gather the following from the user. If not provided, ask before proceeding:
 ## SEO Considerations (for web content)
 
 For blog posts, landing pages, and other web-facing content:
+
 - Suggest a primary keyword based on the topic
 - Recommend keyword placement: headline, first paragraph, subheadings, meta description
 - Suggest internal and external linking opportunities
@@ -109,6 +116,7 @@ For blog posts, landing pages, and other web-facing content:
 ## Output
 
 Present the draft with clear formatting. After the draft, include:
+
 - A brief note on what brand voice and tone were applied
 - Any SEO recommendations (for web content)
 - Suggestions for next steps (e.g., "Review with your team", "Add customer quotes", "Pair with a visual")

@@ -16,6 +16,7 @@ Package a support issue into a structured escalation brief for engineering, prod
 ```
 
 Examples:
+
 - `/escalate API returning 500 errors intermittently for Acme Corp`
 - `/escalate Data export is missing rows — 3 customers reported this week`
 - `/escalate SSO login loop affecting all Enterprise customers`
@@ -109,6 +110,7 @@ If the issue is a bug, follow the reproduction step best practices from the **es
 ### 7. Offer Next Steps
 
 After generating the escalation:
+
 - "Want me to post this in a ~~chat channel for the target team?"
 - "Should I update the customer with an interim response?"
 - "Want me to set a follow-up reminder to check on this?"

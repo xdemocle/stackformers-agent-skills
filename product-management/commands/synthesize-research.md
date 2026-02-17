@@ -14,6 +14,7 @@ Synthesize user research from multiple sources into structured insights and reco
 ### 1. Gather Research Inputs
 
 Accept research from any combination of:
+
 - **Pasted text**: Interview notes, transcripts, survey responses, feedback
 - **Uploaded files**: Research documents, spreadsheets, recordings summaries
 - **~~knowledge base** (if connected): Search for research documents, interview notes, survey results
@@ -22,6 +23,7 @@ Accept research from any combination of:
 - **~~meeting transcription** (if connected): Pull interview recordings, meeting summaries, and discussion notes
 
 Ask the user what they have:
+
 - What type of research? (interviews, surveys, usability tests, analytics, support tickets, sales call notes)
 - How many sources / participants?
 - Is there a specific question or hypothesis they are investigating?
@@ -30,6 +32,7 @@ Ask the user what they have:
 ### 2. Process the Research
 
 For each source, extract:
+
 - **Key observations**: What did users say, do, or experience?
 - **Quotes**: Verbatim quotes that illustrate important points
 - **Behaviors**: What users actually did (vs what they said they do)
@@ -44,6 +47,7 @@ Apply thematic analysis — see the **user-research-synthesis** skill for detail
 Group observations into themes, count frequency across participants, and assess impact severity. Note contradictions and surprises.
 
 Create a priority matrix:
+
 - **High frequency + High impact**: Top priority findings
 - **Low frequency + High impact**: Important for specific segments
 - **High frequency + Low impact**: Quality-of-life improvements
@@ -54,12 +58,15 @@ Create a priority matrix:
 Produce a structured research synthesis:
 
 #### Research Overview
+
 - Methodology: what types of research, how many participants/sources
 - Research question(s): what we set out to learn
 - Timeframe: when the research was conducted
 
 #### Key Findings
+
 For each major finding (aim for 5-8):
+
 - **Finding statement**: One clear sentence describing the insight
 - **Evidence**: Supporting quotes, data points, or observations (with source attribution)
 - **Frequency**: How many participants/sources support this finding
@@ -69,27 +76,35 @@ For each major finding (aim for 5-8):
 Order findings by priority (frequency x impact).
 
 #### User Segments / Personas
+
 If the research reveals distinct user segments:
+
 - Segment name and description
 - Key characteristics and behaviors
 - Unique needs and pain points
 - Size estimate if data is available
 
 #### Opportunity Areas
+
 Based on the findings, identify opportunity areas:
+
 - What user needs are unmet or underserved
 - Where do current solutions fall short
 - What new capabilities would unlock value
 - Prioritized by potential impact
 
 #### Recommendations
+
 Specific, actionable recommendations:
+
 - What to build, change, or investigate further
 - Tied back to specific findings
 - Prioritized by impact and feasibility
 
 #### Open Questions
+
 What the research did not answer:
+
 - Gaps in understanding
 - Areas needing further investigation
 - Suggested follow-up research methods
@@ -97,6 +112,7 @@ What the research did not answer:
 ### 5. Review and Extend
 
 After generating the synthesis:
+
 - Ask if any findings need more detail or different framing
 - Offer to generate specific artifacts: persona documents, opportunity maps, research presentations
 - Offer to create follow-up research plans for open questions

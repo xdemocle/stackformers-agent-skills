@@ -16,6 +16,7 @@ Review an analysis for accuracy, methodology, and potential biases before sharin
 ```
 
 The analysis can be:
+
 - A document or report in the conversation
 - A file (markdown, notebook, spreadsheet)
 - SQL queries and their results
@@ -39,11 +40,13 @@ Examine:
 Systematically review for:
 
 **Data completeness:**
+
 - Missing data that could skew results (e.g., nulls in key fields, missing time periods)
 - Data freshness issues (is the most recent data actually complete or still loading?)
 - Survivorship bias (are you only looking at entities that "survived" to the analysis date?)
 
 **Statistical issues:**
+
 - Simpson's paradox (trend reverses when data is aggregated vs. segmented)
 - Correlation presented as causation without supporting evidence
 - Small sample sizes leading to unreliable conclusions
@@ -51,18 +54,21 @@ Systematically review for:
 - Multiple testing / cherry-picking significant results
 
 **Aggregation errors:**
+
 - Double-counting from improper joins (many-to-many explosions)
 - Incorrect denominators in rate calculations
 - Mixing granularity levels (e.g., user-level metrics averaged with account-level)
 - Revenue recognized vs. billed vs. collected confusion
 
 **Time-related issues:**
+
 - Seasonality not accounted for in comparisons
 - Incomplete periods included in averages (e.g., partial month compared to full months)
 - Timezone inconsistencies between data sources
 - Look-ahead bias (using future information to explain past events)
 
 **Selection and scope:**
+
 - Cherry-picked time ranges that favor a particular narrative
 - Excluded segments without justification
 - Changing definitions mid-analysis

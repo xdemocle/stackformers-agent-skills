@@ -9,6 +9,7 @@ Generate professional, customer-ready sales assets in minutes. No design skills 
 ## What It Does
 
 This skill creates tailored sales assets by asking you about:
+
 1. **Your prospect** — who they are, what you've discussed
 2. **Your audience** — who's viewing, what they care about
 3. **Your purpose** — what you want to achieve
@@ -20,23 +21,25 @@ Then it researches, writes, designs, and builds a polished asset you can share w
 
 ## Supported Formats
 
-| Format | Best For | Output |
-|--------|----------|--------|
-| **Interactive Landing Page** | Exec meetings, value prop presentations | Multi-tab page with demos and calculators |
-| **Deck-Style** | Formal presentations, large audiences | Linear slides with navigation |
-| **One-Pager** | Leave-behinds, quick summaries | Single-scroll executive summary |
-| **Workflow / Architecture Demo** | Technical deep-dives, POC proposals | Interactive diagram with animated flow |
+| Format                           | Best For                                | Output                                    |
+| -------------------------------- | --------------------------------------- | ----------------------------------------- |
+| **Interactive Landing Page**     | Exec meetings, value prop presentations | Multi-tab page with demos and calculators |
+| **Deck-Style**                   | Formal presentations, large audiences   | Linear slides with navigation             |
+| **One-Pager**                    | Leave-behinds, quick summaries          | Single-scroll executive summary           |
+| **Workflow / Architecture Demo** | Technical deep-dives, POC proposals     | Interactive diagram with animated flow    |
 
 ---
 
 ## Quick Start
 
 ### Option 1: Simple prompt
+
 ```
 Create an asset for Acme Corp
 ```
 
 ### Option 2: With context
+
 ```
 Create an asset for Acme Corp. I met with their VP Engineering
 last week - they're struggling with slow release cycles and
@@ -45,6 +48,7 @@ with their technical team.
 ```
 
 ### Option 3: Workflow demo
+
 ```
 I want to mock up a workflow showing how a customer would use
 our product to automate their invoice processing. The flow is:
@@ -57,6 +61,7 @@ against their ERP → flags exceptions for human review.
 ## What Gets Created
 
 ### Interactive Landing Page
+
 - Tabbed navigation
 - Company metrics and research
 - Use case demos
@@ -64,6 +69,7 @@ against their ERP → flags exceptions for human review.
 - Professional dark theme with prospect's brand colors
 
 ### Deck-Style
+
 - Title slide with both logos
 - Agenda
 - Content slides (one message per slide)
@@ -71,12 +77,14 @@ against their ERP → flags exceptions for human review.
 - Speaker notes included
 
 ### One-Pager
+
 - Hero statement
 - 3 key value points
 - Proof point
 - Clear CTA
 
 ### Workflow Demo
+
 - Visual component nodes
 - Animated data flow
 - Step-by-step walkthrough
@@ -117,27 +125,31 @@ The output is a self-contained HTML file. Share it by:
 ## Tips for Best Results
 
 ### Provide Rich Context
+
 The more you share about past conversations, pain points, and stakeholder concerns, the more tailored the asset will be.
 
 ### Upload Transcripts
+
 If you have call recordings, meeting notes, or email threads, upload them. The skill will extract key quotes and priorities.
 
 ### Be Specific About Audience
+
 "Technical team" is good. "IT architects evaluating our security model" is better.
 
 ### Iterate Freely
+
 First draft not quite right? Just say what to change. Colors, sections, messaging, flow — all adjustable.
 
 ---
 
 ## Examples
 
-| Scenario | Format | Key Features |
-|----------|--------|--------------|
-| Post-discovery exec meeting | Interactive page | ROI calculator, their stated priorities, case studies |
-| Technical architecture review | Workflow demo | System diagram, data flows, integration points |
-| Board presentation leave-behind | One-pager | Strategic alignment, key metrics, clear CTA |
-| Large stakeholder meeting | Deck-style | Linear narrative, one point per slide, appendix |
+| Scenario                        | Format           | Key Features                                          |
+| ------------------------------- | ---------------- | ----------------------------------------------------- |
+| Post-discovery exec meeting     | Interactive page | ROI calculator, their stated priorities, case studies |
+| Technical architecture review   | Workflow demo    | System diagram, data flows, integration points        |
+| Board presentation leave-behind | One-pager        | Strategic alignment, key metrics, clear CTA           |
+| Large stakeholder meeting       | Deck-style       | Linear narrative, one point per slide, appendix       |
 
 ---
 
@@ -166,4 +178,4 @@ Questions or feedback? This skill is part of the public sales skills collection.
 
 ---
 
-*Built for salespeople who'd rather sell than design slides.*
+_Built for salespeople who'd rather sell than design slides._

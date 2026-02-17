@@ -59,11 +59,13 @@ If a data warehouse MCP server is connected:
 Follow these best practices:
 
 **Structure:**
+
 - Use CTEs (WITH clauses) for readability when queries have multiple logical steps
 - One CTE per logical transformation or data source
 - Name CTEs descriptively (e.g., `daily_signups`, `active_users`, `revenue_by_product`)
 
 **Performance:**
+
 - Never use `SELECT *` in production queries -- specify only needed columns
 - Filter early (push WHERE clauses as close to the base tables as possible)
 - Use partition filters when available (especially date partitions)
@@ -73,12 +75,14 @@ Follow these best practices:
 - Be mindful of exploding joins (many-to-many)
 
 **Readability:**
+
 - Add comments explaining the "why" for non-obvious logic
 - Use consistent indentation and formatting
 - Alias tables with meaningful short names (not just `a`, `b`, `c`)
 - Put each major clause on its own line
 
 **Dialect-specific optimizations:**
+
 - Apply dialect-specific syntax and functions (see `sql-queries` skill for details)
 - Use dialect-appropriate date functions, string functions, and window syntax
 - Note any dialect-specific performance features (e.g., Snowflake clustering, BigQuery partitioning)
@@ -99,16 +103,19 @@ If a data warehouse is connected, offer to run the query and analyze the results
 ## Examples
 
 **Simple aggregation:**
+
 ```
 /write-query Count of orders by status for the last 30 days
 ```
 
 **Complex analysis:**
+
 ```
 /write-query Cohort retention analysis -- group users by their signup month, then show what percentage are still active (had at least one event) at 1, 3, 6, and 12 months after signup
 ```
 
 **Performance-critical:**
+
 ```
 /write-query We have a 500M row events table partitioned by date. Find the top 100 users by event count in the last 7 days with their most recent event type.
 ```

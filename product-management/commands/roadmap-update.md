@@ -14,11 +14,13 @@ Update, create, or reprioritize a product roadmap.
 ### 1. Understand Current State
 
 If **~~project tracker** is connected:
+
 - Pull current roadmap items with their statuses, assignees, and dates
 - Identify items that are overdue, at risk, or recently completed
 - Surface any items without clear owners or dates
 
 If no project management tool is connected:
+
 - Ask the user to describe their current roadmap or paste/upload it
 - Accept any format: list, table, spreadsheet, screenshot, or prose description
 
@@ -27,24 +29,29 @@ If no project management tool is connected:
 Ask what the user wants to do:
 
 **Add item**: New feature, initiative, or work item to the roadmap
+
 - Gather: name, description, priority, estimated effort, target timeframe, owner, dependencies
 - Suggest where it fits based on current priorities and capacity
 
 **Update status**: Change status of existing items
+
 - Options: not started, in progress, at risk, blocked, completed, cut
 - For "at risk" or "blocked": ask for the blocker and mitigation plan
 
 **Reprioritize**: Change the order or priority of items
+
 - Ask what changed (new information, strategy shift, resource change, customer feedback)
 - Apply a prioritization framework if helpful — see the **roadmap-management** skill for RICE, MoSCoW, ICE, and value-vs-effort frameworks
 - Show before/after comparison
 
 **Move timeline**: Shift dates for items
+
 - Ask why (scope change, dependency slip, resource constraint)
 - Identify downstream impacts on dependent items
 - Flag items that move past hard deadlines
 
 **Create new roadmap**: Build a roadmap from scratch
+
 - Ask about timeframe (quarter, half, year)
 - Ask about format preference (Now/Next/Later, quarterly columns, OKR-aligned)
 - Gather the list of initiatives to include
@@ -54,10 +61,13 @@ Ask what the user wants to do:
 Produce a roadmap view with:
 
 #### Status Overview
+
 Quick summary: X items in progress, Y completed this period, Z at risk.
 
 #### Roadmap Items
+
 For each item, show:
+
 - Name and one-line description
 - Status indicator (on track / at risk / blocked / completed / not started)
 - Target timeframe or date
@@ -65,16 +75,20 @@ For each item, show:
 - Key dependencies
 
 Group items by:
+
 - Timeframe (Now / Next / Later) or quarter, depending on format
 - Or by theme/goal if the user prefers
 
 #### Risks and Dependencies
+
 - Items that are blocked or at risk, with details
 - Cross-team dependencies and their status
 - Items approaching hard deadlines
 
 #### Changes This Update
+
 If this is an update to an existing roadmap, summarize what changed:
+
 - Items added, removed, or reprioritized
 - Timeline shifts
 - Status changes
@@ -82,6 +96,7 @@ If this is an update to an existing roadmap, summarize what changed:
 ### 4. Follow Up
 
 After generating the roadmap:
+
 - Offer to format for a specific audience (executive summary, engineering detail, customer-facing)
 - Offer to draft communication about roadmap changes
 - If project management tool is connected, offer to update ticket statuses

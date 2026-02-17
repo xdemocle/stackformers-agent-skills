@@ -37,41 +37,49 @@ In your project's `.claude/` directory, create a `legal.local.md` file:
 ## Contract Review Positions
 
 ### Limitation of Liability
+
 - Standard position: Mutual cap at 12 months of fees paid/payable
 - Acceptable range: 6-24 months of fees
 - Escalation trigger: Uncapped liability, consequential damages inclusion
 
 ### Indemnification
+
 - Standard position: Mutual indemnification for IP infringement and data breach
 - Acceptable: Indemnification limited to third-party claims only
 - Escalation trigger: Unilateral indemnification obligations, uncapped indemnification
 
 ### IP Ownership
+
 - Standard position: Each party retains pre-existing IP; customer owns customer data
 - Escalation trigger: Broad IP assignment clauses, work-for-hire provisions for pre-existing IP
 
 ### Data Protection
+
 - Standard position: Require DPA for any personal data processing
 - Requirements: Sub-processor notification, data deletion on termination, breach notification within 72 hours
 - Escalation trigger: No DPA offered, cross-border transfer without safeguards
 
 ### Term and Termination
+
 - Standard position: Annual term with 30-day termination for convenience
 - Acceptable: Multi-year with termination for convenience after initial term
 - Escalation trigger: Auto-renewal without notice period, no termination for convenience
 
 ### Governing Law
+
 - Preferred: [Your jurisdiction]
 - Acceptable: Major commercial jurisdictions (NY, DE, CA, England & Wales)
 - Escalation trigger: Non-standard jurisdictions, mandatory arbitration in unfavorable venue
 
 ## NDA Defaults
+
 - Mutual obligations required
 - Term: 2-3 years standard, 5 years for trade secrets
 - Standard carveouts: independently developed, publicly available, rightfully received from third party
 - Residuals clause: acceptable if narrowly scoped
 
 ## Response Templates
+
 Configure paths to your template files or define inline templates for common inquiries.
 ```
 
@@ -131,14 +139,14 @@ Supported inquiry types include: data subject request, discovery hold, vendor qu
 
 ## Skills
 
-| Skill | Description |
-|-------|-------------|
-| `contract-review` | Playbook-based contract analysis, deviation classification, redline generation |
-| `nda-triage` | NDA screening criteria, classification rules, routing recommendations |
-| `compliance` | Privacy regulations (GDPR, CCPA), DPA review, data subject requests |
-| `canned-responses` | Template management, response categories, escalation triggers |
-| `legal-risk-assessment` | Risk severity framework, classification levels, escalation criteria |
-| `meeting-briefing` | Meeting prep methodology, context gathering, action item tracking |
+| Skill                   | Description                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| `contract-review`       | Playbook-based contract analysis, deviation classification, redline generation |
+| `nda-triage`            | NDA screening criteria, classification rules, routing recommendations          |
+| `compliance`            | Privacy regulations (GDPR, CCPA), DPA review, data subject requests            |
+| `canned-responses`      | Template management, response categories, escalation triggers                  |
+| `legal-risk-assessment` | Risk severity framework, classification levels, escalation criteria            |
+| `meeting-briefing`      | Meeting prep methodology, context gathering, action item tracking              |
 
 ## Example Workflows
 
@@ -177,12 +185,12 @@ Supported inquiry types include: data subject request, discovery hold, vendor qu
 
 The plugin connects to your tools through MCP (Model Context Protocol) servers:
 
-| Category | Examples | Purpose |
-|----------|----------|---------|
-| Chat | Slack, Teams | Team requests, notifications, triage |
-| Cloud storage | Box, Egnyte | Playbooks, templates, precedents |
-| Office suite | Microsoft 365 | Email, calendar, documents |
-| Project tracker | Atlassian (Jira/Confluence) | Matter tracking, tasks |
+| Category        | Examples                    | Purpose                              |
+| --------------- | --------------------------- | ------------------------------------ |
+| Chat            | Slack, Teams                | Team requests, notifications, triage |
+| Cloud storage   | Box, Egnyte                 | Playbooks, templates, precedents     |
+| Office suite    | Microsoft 365               | Email, calendar, documents           |
+| Project tracker | Atlassian (Jira/Confluence) | Matter tracking, tasks               |
 
 See [CONNECTORS.md](CONNECTORS.md) for the full list of supported integrations, including CLM, CRM, e-signature, and additional options.
 

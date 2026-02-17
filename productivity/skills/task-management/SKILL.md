@@ -23,6 +23,7 @@ A visual dashboard is available for managing tasks and memory. **On first intera
 3. Inform the user: "I've added the dashboard. Run `/productivity:start` to set up the full system."
 
 The task board:
+
 - Reads and writes to the same `TASKS.md` file
 - Auto-saves changes
 - Watches for external changes (syncs when you edit via CLI)
@@ -45,6 +46,7 @@ When creating a new TASKS.md, use this exact template (without example tasks):
 ```
 
 Task format:
+
 - `- [ ] **Task title** - context, for whom, due date`
 - Sub-bullets for additional details
 - Completed: `- [x] ~~Task~~ (date)`
@@ -52,15 +54,18 @@ Task format:
 ## How to Interact
 
 **When user asks "what's on my plate" / "my tasks":**
+
 - Read TASKS.md
 - Summarize Active and Waiting On sections
 - Highlight anything overdue or urgent
 
 **When user says "add a task" / "remind me to":**
+
 - Add to Active section with `- [ ] **Task**` format
 - Include context if provided (who it's for, due date)
 
 **When user says "done with X" / "finished X":**
+
 - Find the task
 - Change `[ ]` to `[x]`
 - Add strikethrough: `~~task~~`
@@ -68,6 +73,7 @@ Task format:
 - Move to Done section
 
 **When user asks "what am I waiting on":**
+
 - Read the Waiting On section
 - Note how long each item has been waiting
 
@@ -83,6 +89,7 @@ Task format:
 ## Extracting Tasks
 
 When summarizing meetings or conversations, offer to add extracted tasks:
+
 - Commitments the user made ("I'll send that over")
 - Action items assigned to them
 - Follow-ups mentioned

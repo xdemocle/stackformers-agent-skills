@@ -16,6 +16,7 @@ Draft a publish-ready knowledge base article from a resolved support issue, comm
 ```
 
 Examples:
+
 - `/kb-article How to configure SSO with Okta — resolved this for 3 customers last month`
 - `/kb-article Ticket #4521 — customer couldn't export data over 10k rows`
 - `/kb-article Common question: how to set up webhook notifications`
@@ -77,6 +78,7 @@ from the knowledge-management skill]
 ### 4. Offer Next Steps
 
 After generating the article:
+
 - "Want me to check if a similar article already exists in your ~~knowledge base?"
 - "Should I adjust the technical depth for a different audience?"
 - "Want me to draft a companion article (e.g., a how-to to go with this troubleshooting guide)?"

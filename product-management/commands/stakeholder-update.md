@@ -14,6 +14,7 @@ Generate a stakeholder update tailored to the audience and cadence.
 ### 1. Determine Update Type
 
 Ask the user what kind of update:
+
 - **Weekly**: Regular cadence update on progress, blockers, and next steps
 - **Monthly**: Higher-level summary with trends, milestones, and strategic alignment
 - **Launch**: Announcement of a feature or product launch with details and impact
@@ -22,6 +23,7 @@ Ask the user what kind of update:
 ### 2. Determine Audience
 
 Ask who the update is for:
+
 - **Executives / leadership**: High-level, outcome-focused, strategic framing, brief
 - **Engineering team**: Technical detail, implementation context, blockers, decisions needed
 - **Cross-functional partners**: Context-appropriate detail, focus on shared goals and dependencies
@@ -31,25 +33,30 @@ Ask who the update is for:
 ### 3. Pull Context from Connected Tools
 
 If **~~project tracker** is connected:
+
 - Pull status of roadmap items and milestones
 - Identify completed items since last update
 - Surface items that are at risk or blocked
 - Pull sprint or iteration progress
 
 If **~~chat** is connected:
+
 - Search for relevant team discussions and decisions
 - Find blockers or issues raised in channels
 - Identify key decisions made asynchronously
 
 If **~~meeting transcription** is connected:
+
 - Pull recent meeting notes and discussion summaries
 - Find decisions and action items from relevant meetings
 
 If **~~knowledge base** is connected:
+
 - Search for recent meeting notes
 - Find decision documents or design reviews
 
 If no tools are connected, ask the user to provide:
+
 - What was accomplished since the last update
 - Current blockers or risks
 - Key decisions made or needed
@@ -72,6 +79,7 @@ Structure the update for the target audience. See the **stakeholder-comms** skil
 ### 5. Review and Deliver
 
 After generating the update:
+
 - Ask if the user wants to adjust tone, detail level, or emphasis
 - Offer to format for the delivery channel (email, chat post, doc, slides)
 - If **~~chat** is connected, offer to draft the message for sending

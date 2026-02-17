@@ -35,12 +35,15 @@ Reconcile GL account balances to subledger, bank, or third-party balances. Ident
 ### 1. Gather Both Sides of the Reconciliation
 
 If ~~erp or ~~data warehouse is connected:
+
 - Pull the GL balance for the specified account(s) as of period end
 - Pull the subledger, bank statement, or third-party balance for comparison
 - Pull prior period reconciliation (if available) for outstanding item carryforward
 
 If no data source is connected:
+
 > Connect ~~erp or ~~data warehouse to pull account balances automatically. To reconcile manually, provide:
+>
 > 1. **GL side:** The general ledger balance for the account as of period end
 > 2. **Other side:** The subledger balance, bank statement balance, or third-party confirmation balance
 > 3. **Prior period outstanding items** (optional): Any reconciling items from the prior period reconciliation
@@ -61,18 +64,21 @@ Difference:                    $XX,XXX.XX
 Analyze the difference and categorize reconciling items:
 
 **Timing Differences** (items that will clear in subsequent periods):
+
 - Outstanding checks / payments issued but not yet cleared
 - Deposits in transit / receipts recorded but not yet credited
 - Invoices posted in one system but pending in the other
 - Accruals awaiting reversal
 
 **Permanent Differences** (items requiring adjustment):
+
 - Errors in recording (wrong amount, wrong account, duplicate entries)
 - Missing entries (transactions in one system but not the other)
 - Bank fees or charges not yet recorded
 - Foreign currency translation differences
 
 **Prior Period Items** (carryforward from prior reconciliation):
+
 - Items from prior period that have now cleared (remove from reconciliation)
 - Items from prior period still outstanding (carry forward with aging)
 
@@ -121,10 +127,10 @@ DIFFERENCE:                              $0.00
 
 Present each reconciling item with:
 
-| # | Description | Amount | Category | Age (Days) | Status | Action Required |
-|---|-------------|--------|----------|------------|--------|-----------------|
-| 1 | [Detail]    | $X,XXX | Timing   | 5          | Expected to clear | Monitor |
-| 2 | [Detail]    | $X,XXX | Error    | N/A        | Requires correction | Post adjusting JE |
+| #   | Description | Amount | Category | Age (Days) | Status              | Action Required   |
+| --- | ----------- | ------ | -------- | ---------- | ------------------- | ----------------- |
+| 1   | [Detail]    | $X,XXX | Timing   | 5          | Expected to clear   | Monitor           |
+| 2   | [Detail]    | $X,XXX | Error    | N/A        | Requires correction | Post adjusting JE |
 
 ### 6. Review and Escalation
 
@@ -139,6 +145,7 @@ Flag items that require attention:
 ### 7. Output
 
 Provide:
+
 1. The formatted reconciliation workpaper
 2. List of reconciling items with categorization and aging
 3. Required adjusting entries (if any permanent differences identified)

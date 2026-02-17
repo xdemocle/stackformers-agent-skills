@@ -20,23 +20,23 @@ This plugin turns Claude into a customer support co-pilot. It helps you:
 
 ## Commands
 
-| Command | Description |
-|---|---|
-| `/triage` | Categorize, prioritize, and route a support ticket or customer issue |
-| `/research` | Multi-source research on a customer question or topic |
-| `/draft-response` | Draft a customer-facing response for any situation |
-| `/escalate` | Package an escalation for engineering, product, or leadership |
-| `/kb-article` | Draft a knowledge base article from a resolved issue |
+| Command           | Description                                                          |
+| ----------------- | -------------------------------------------------------------------- |
+| `/triage`         | Categorize, prioritize, and route a support ticket or customer issue |
+| `/research`       | Multi-source research on a customer question or topic                |
+| `/draft-response` | Draft a customer-facing response for any situation                   |
+| `/escalate`       | Package an escalation for engineering, product, or leadership        |
+| `/kb-article`     | Draft a knowledge base article from a resolved issue                 |
 
 ## Skills
 
-| Skill | Description |
-|---|---|
-| `ticket-triage` | Category taxonomy, priority framework (P1-P4), routing rules, duplicate detection |
-| `customer-research` | Multi-source research methodology, source prioritization, answer synthesis |
-| `response-drafting` | Communication best practices, tone guidelines, templates for common scenarios |
-| `escalation` | Escalation tiers, structured escalation format, impact assessment, follow-up cadence |
-| `knowledge-management` | Article structure standards, writing for searchability, review cadence, maintenance |
+| Skill                  | Description                                                                          |
+| ---------------------- | ------------------------------------------------------------------------------------ |
+| `ticket-triage`        | Category taxonomy, priority framework (P1-P4), routing rules, duplicate detection    |
+| `customer-research`    | Multi-source research methodology, source prioritization, answer synthesis           |
+| `response-drafting`    | Communication best practices, tone guidelines, templates for common scenarios        |
+| `escalation`           | Escalation tiers, structured escalation format, impact assessment, follow-up cadence |
+| `knowledge-management` | Article structure standards, writing for searchability, review cadence, maintenance  |
 
 ## Data Sources
 
@@ -45,6 +45,7 @@ This plugin turns Claude into a customer support co-pilot. It helps you:
 Connect your support platform, knowledge base, and communication tools for the best experience. Without them, provide customer context manually.
 
 **Included MCP connections:**
+
 - Chat (Slack) for internal discussions and customer channel context
 - Support platform (Intercom) for ticket history and customer conversations
 - CRM (HubSpot) for account details and contact information
@@ -53,6 +54,7 @@ Connect your support platform, knowledge base, and communication tools for the b
 - Email and cloud storage (Microsoft 365) for customer correspondence
 
 **Additional options:**
+
 - See [CONNECTORS.md](CONNECTORS.md) for alternative tools in each category
 
 ## Example Workflows

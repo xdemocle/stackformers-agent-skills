@@ -32,23 +32,27 @@ User runs `/brand-review` or asks to review, check, or audit content against bra
 Evaluate the content against each of these dimensions:
 
 #### Voice and Tone
+
 - Does the content match the defined brand voice attributes?
 - Is the tone appropriate for the content type and audience?
 - Are there shifts in voice that feel inconsistent?
 - Flag specific sentences or phrases that deviate with an explanation of why
 
 #### Terminology and Language
+
 - Are preferred brand terms used correctly?
 - Are any "avoid" terms or phrases present?
 - Is jargon level appropriate for the target audience?
 - Are product names, feature names, and branded terms used correctly (capitalization, formatting)?
 
 #### Messaging Pillars
+
 - Does the content align with defined messaging pillars or value propositions?
 - Are claims consistent with approved messaging?
 - Is the content reinforcing or contradicting brand positioning?
 
 #### Style Guide Compliance
+
 - Grammar and punctuation per style guide (e.g., Oxford comma, title case vs. sentence case)
 - Formatting conventions (headers, lists, emphasis)
 - Number formatting, date formatting
@@ -59,17 +63,20 @@ Evaluate the content against each of these dimensions:
 Evaluate the content for:
 
 #### Clarity
+
 - Is the main message clear within the first paragraph?
 - Are sentences concise and easy to understand?
 - Is the structure logical and easy to follow?
 - Are there ambiguous statements or unclear references?
 
 #### Consistency
+
 - Is the tone consistent throughout?
 - Are terms used consistently (no switching between synonyms for the same concept)?
 - Is formatting consistent (headers, lists, capitalization)?
 
 #### Professionalism
+
 - Is the content free of typos, grammatical errors, and awkward phrasing?
 - Is the tone appropriate for the intended audience?
 - Are claims supported or substantiated?
@@ -77,6 +84,7 @@ Evaluate the content for:
 ### Legal and Compliance Flags (Always Checked)
 
 Regardless of whether brand guidelines are configured, flag:
+
 - **Unsubstantiated claims** — superlatives ("best", "fastest", "only") without evidence or qualification
 - **Missing disclaimers** — financial claims, health claims, or guarantees that may need legal disclaimers
 - **Comparative claims** — comparisons to competitors that could be challenged
@@ -89,6 +97,7 @@ Regardless of whether brand guidelines are configured, flag:
 Present the review as:
 
 ### Summary
+
 - Overall assessment: how well the content aligns with brand standards (or general quality)
 - 1-2 sentence summary of the biggest strengths
 - 1-2 sentence summary of the most important improvements
@@ -98,9 +107,10 @@ Present the review as:
 For each issue found, provide:
 
 | Issue | Location | Severity | Suggestion |
-|-------|----------|----------|------------|
+| ----- | -------- | -------- | ---------- |
 
 Where severity is:
+
 - **High** — contradicts brand voice, contains compliance risk, or significantly undermines messaging
 - **Medium** — inconsistent with guidelines but not damaging
 - **Low** — minor style or preference issue
@@ -116,6 +126,7 @@ List any legal or compliance concerns separately with recommended actions.
 ## After Review
 
 Ask: "Would you like me to:
+
 - Revise the full content with these suggestions applied?
 - Focus on fixing just the high-severity issues?
 - Review additional content against the same guidelines?

@@ -69,16 +69,19 @@ If any check raises concerns, investigate and note caveats.
 ### 5. Present Findings
 
 **For quick answers:**
+
 - State the answer directly with relevant context
 - Include the query used (collapsed or in a code block) for reproducibility
 
 **For full analyses:**
+
 - Lead with the key finding or insight
 - Support with data tables and/or visualizations
 - Note methodology and any caveats
 - Suggest follow-up questions
 
 **For formal reports:**
+
 - Executive summary with key takeaways
 - Methodology section explaining approach and data sources
 - Detailed findings with supporting evidence
@@ -96,16 +99,19 @@ When a chart would communicate results more effectively than a table:
 ## Examples
 
 **Quick answer:**
+
 ```
 /analyze How many new users signed up in December?
 ```
 
 **Full analysis:**
+
 ```
 /analyze What's causing the increase in support ticket volume over the past 3 months? Break down by category and priority.
 ```
 
 **Formal report:**
+
 ```
 /analyze Prepare a data quality assessment of our customer table -- completeness, consistency, and any issues we should address.
 ```

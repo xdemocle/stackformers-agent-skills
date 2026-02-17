@@ -12,24 +12,24 @@ claude plugins add knowledge-work-plugins/finance
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `/journal-entry` | Journal entry preparation — generate accruals, fixed asset entries, prepaids, payroll, and revenue entries with proper debits/credits and supporting detail |
-| `/reconciliation` | Account reconciliation — compare GL balances to subledger, bank, or third-party balances and identify reconciling items |
-| `/income-statement` | Income statement generation — produce P&L with period-over-period comparison and variance analysis |
-| `/variance-analysis` | Variance/flux analysis — decompose variances into drivers with narrative explanations and waterfall analysis |
-| `/sox-testing` | SOX compliance testing — generate sample selections, testing workpapers, and control assessments |
+| Command              | Description                                                                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/journal-entry`     | Journal entry preparation — generate accruals, fixed asset entries, prepaids, payroll, and revenue entries with proper debits/credits and supporting detail |
+| `/reconciliation`    | Account reconciliation — compare GL balances to subledger, bank, or third-party balances and identify reconciling items                                     |
+| `/income-statement`  | Income statement generation — produce P&L with period-over-period comparison and variance analysis                                                          |
+| `/variance-analysis` | Variance/flux analysis — decompose variances into drivers with narrative explanations and waterfall analysis                                                |
+| `/sox-testing`       | SOX compliance testing — generate sample selections, testing workpapers, and control assessments                                                            |
 
 ## Skills
 
-| Skill | Description |
-|-------|-------------|
-| `journal-entry-prep` | JE preparation best practices, standard accrual types, supporting documentation requirements, and review workflows |
-| `reconciliation` | Reconciliation methodology for GL-to-subledger, bank recs, and intercompany, with reconciling item categorization and aging |
-| `financial-statements` | Income statement, balance sheet, and cash flow statement formats with GAAP presentation and flux analysis methodology |
-| `variance-analysis` | Variance decomposition techniques (price/volume, rate/mix), materiality thresholds, narrative generation, and waterfall charts |
-| `close-management` | Month-end close checklist, task sequencing, dependencies, status tracking, and common close activities by day |
-| `audit-support` | SOX 404 control testing methodology, sample selection, documentation standards, and deficiency classification |
+| Skill                  | Description                                                                                                                    |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `journal-entry-prep`   | JE preparation best practices, standard accrual types, supporting documentation requirements, and review workflows             |
+| `reconciliation`       | Reconciliation methodology for GL-to-subledger, bank recs, and intercompany, with reconciling item categorization and aging    |
+| `financial-statements` | Income statement, balance sheet, and cash flow statement formats with GAAP presentation and flux analysis methodology          |
+| `variance-analysis`    | Variance decomposition techniques (price/volume, rate/mix), materiality thresholds, narrative generation, and waterfall charts |
+| `close-management`     | Month-end close checklist, task sequencing, dependencies, status tracking, and common close activities by day                  |
+| `audit-support`        | SOX 404 control testing methodology, sample selection, documentation standards, and deficiency classification                  |
 
 ## Example Workflows
 

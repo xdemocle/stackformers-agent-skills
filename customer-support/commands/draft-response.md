@@ -16,6 +16,7 @@ Draft a professional, customer-facing response tailored to the situation, custom
 ```
 
 Examples:
+
 - `/draft-response Acme Corp is asking when the new dashboard feature will ship`
 - `/draft-response Customer escalation — their integration has been down for 2 days`
 - `/draft-response Responding to a feature request we won't be building`
@@ -39,26 +40,31 @@ Parse the user's input to determine:
 Gather relevant background from available sources:
 
 **~~email:**
+
 - Previous correspondence with this customer on this topic
 - Any commitments or timelines previously shared
 - Tone and style of the existing thread
 
 **~~chat:**
+
 - Internal discussions about this customer or topic
 - Any guidance from product, engineering, or leadership
 - Similar situations and how they were handled
 
 **~~CRM (if connected):**
+
 - Account details and plan level
 - Contact information and key stakeholders
 - Previous escalations or sensitive issues
 
 **~~support platform (if connected):**
+
 - Related tickets and their resolution
 - Known issues or workarounds
 - SLA status and response time commitments
 
 **~~knowledge base:**
+
 - Official documentation or help articles to reference
 - Product roadmap information (if shareable)
 - Policy or process documentation
@@ -92,12 +98,14 @@ Produce a response tailored to the situation:
 ### 4. Situation-Specific Approaches
 
 **Answering a product question:**
+
 - Lead with the direct answer
 - Provide relevant documentation links
 - Offer to connect them with the right resource if needed
 - If you don't know the answer: say so honestly, commit to finding out, give a timeline
 
 **Responding to an issue or bug:**
+
 - Acknowledge the impact on their work
 - State what you know about the issue and its status
 - Provide workaround if available
@@ -105,6 +113,7 @@ Produce a response tailored to the situation:
 - Commit to updates at regular intervals
 
 **Handling an escalation:**
+
 - Acknowledge the severity and their frustration
 - Take ownership (no deflecting or excuse-making)
 - Provide a clear action plan with timeline
@@ -112,6 +121,7 @@ Produce a response tailored to the situation:
 - Offer a meeting or call if appropriate for the severity
 
 **Delivering bad news (feature sunset, delay, can't-fix):**
+
 - Be direct — don't bury the news
 - Explain the reasoning honestly
 - Acknowledge the impact on them specifically
@@ -119,12 +129,14 @@ Produce a response tailored to the situation:
 - Provide a clear path forward
 
 **Sharing good news (feature launch, milestone, recognition):**
+
 - Lead with the positive outcome
 - Connect it to their specific goals or use case
 - Suggest next steps to capitalize on the good news
 - Express genuine enthusiasm
 
 **Declining a request (feature request, discount, exception):**
+
 - Acknowledge the request and its reasoning
 - Be honest about the decision
 - Explain the why without being dismissive
@@ -146,6 +158,7 @@ Before presenting the draft, verify:
 ### 6. Offer Iterations
 
 After presenting the draft:
+
 - "Want me to adjust the tone? (more formal, more casual, more empathetic, more direct)"
 - "Should I add or remove any specific points?"
 - "Want me to make this shorter/longer?"

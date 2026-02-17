@@ -8,12 +8,12 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 
 ## Connectors for this plugin
 
-| Category | Placeholder | Included servers | Other options |
-|----------|-------------|-----------------|---------------|
-| Chat | `~~chat` | Slack | Microsoft Teams |
-| Email | `~~email` | Microsoft 365 | — |
-| Cloud storage | `~~cloud storage` | Microsoft 365 | — |
-| Support platform | `~~support platform` | Intercom | Zendesk, Freshdesk, HubSpot Service Hub |
-| CRM | `~~CRM` | HubSpot | Salesforce, Pipedrive |
-| Knowledge base | `~~knowledge base` | Guru, Notion | Confluence, Help Scout |
-| Project tracker | `~~project tracker` | Atlassian (Jira/Confluence) | Linear, Asana |
+| Category         | Placeholder          | Included servers            | Other options                           |
+| ---------------- | -------------------- | --------------------------- | --------------------------------------- |
+| Chat             | `~~chat`             | Slack                       | Microsoft Teams                         |
+| Email            | `~~email`            | Microsoft 365               | —                                       |
+| Cloud storage    | `~~cloud storage`    | Microsoft 365               | —                                       |
+| Support platform | `~~support platform` | Intercom                    | Zendesk, Freshdesk, HubSpot Service Hub |
+| CRM              | `~~CRM`              | HubSpot                     | Salesforce, Pipedrive                   |
+| Knowledge base   | `~~knowledge base`   | Guru, Notion                | Confluence, Help Scout                  |
+| Project tracker  | `~~project tracker`  | Atlassian (Jira/Confluence) | Linear, Asana                           |

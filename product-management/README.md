@@ -21,25 +21,25 @@ This plugin gives you an AI-powered product management partner that can help wit
 
 ## Commands
 
-| Command | What It Does |
-|---|---|
-| `/write-spec` | Write a feature spec or PRD from a problem statement |
-| `/roadmap-update` | Update, create, or reprioritize your roadmap |
-| `/stakeholder-update` | Generate a stakeholder update (weekly, monthly, launch) |
+| Command                | What It Does                                                   |
+| ---------------------- | -------------------------------------------------------------- |
+| `/write-spec`          | Write a feature spec or PRD from a problem statement           |
+| `/roadmap-update`      | Update, create, or reprioritize your roadmap                   |
+| `/stakeholder-update`  | Generate a stakeholder update (weekly, monthly, launch)        |
 | `/synthesize-research` | Synthesize user research from interviews, surveys, and tickets |
-| `/competitive-brief` | Create a competitive analysis brief |
-| `/metrics-review` | Review and analyze product metrics |
+| `/competitive-brief`   | Create a competitive analysis brief                            |
+| `/metrics-review`      | Review and analyze product metrics                             |
 
 ## Skills
 
-| Skill | What It Covers |
-|---|---|
-| `feature-spec` | PRD structure, user stories, requirements categorization, acceptance criteria |
-| `roadmap-management` | Prioritization frameworks (RICE, MoSCoW), roadmap formats, dependency mapping |
-| `stakeholder-comms` | Update templates by audience, risk communication, decision documentation |
-| `user-research-synthesis` | Thematic analysis, affinity mapping, persona development, opportunity sizing |
-| `competitive-analysis` | Feature comparison matrices, positioning analysis, win/loss analysis |
-| `metrics-tracking` | Product metrics hierarchy, goal setting (OKRs), dashboard design, review cadences |
+| Skill                     | What It Covers                                                                    |
+| ------------------------- | --------------------------------------------------------------------------------- |
+| `feature-spec`            | PRD structure, user stories, requirements categorization, acceptance criteria     |
+| `roadmap-management`      | Prioritization frameworks (RICE, MoSCoW), roadmap formats, dependency mapping     |
+| `stakeholder-comms`       | Update templates by audience, risk communication, decision documentation          |
+| `user-research-synthesis` | Thematic analysis, affinity mapping, persona development, opportunity sizing      |
+| `competitive-analysis`    | Feature comparison matrices, positioning analysis, win/loss analysis              |
+| `metrics-tracking`        | Product metrics hierarchy, goal setting (OKRs), dashboard design, review cadences |
 
 ## Example Workflows
 
@@ -90,6 +90,7 @@ Claude: [Generates brief with feature comparison, strengths/weaknesses, and stra
 Connect your project management and communication tools for the best experience. Without them, provide context manually.
 
 **Included MCP connections:**
+
 - Chat (Slack) for team context and stakeholder threads
 - Project tracker (Linear, Asana, monday.com, ClickUp, Atlassian) for roadmap integration, ticket context, and status tracking
 - Knowledge base (Notion) for existing specs, research, and meeting notes
@@ -99,4 +100,5 @@ Connect your project management and communication tools for the best experience.
 - Meeting transcription (Fireflies) for meeting notes and discussion context
 
 **Additional options:**
+
 - See [CONNECTORS.md](CONNECTORS.md) for alternative tools in each category

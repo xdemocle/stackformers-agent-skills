@@ -35,6 +35,7 @@ User runs `/performance-report` or asks for a marketing report, performance anal
 ## Report Structure
 
 ### 1. Executive Summary
+
 - 2-3 sentence overview of performance in the period
 - Headline metric with trend direction (up/down/flat vs. prior period)
 - One key win and one area of concern
@@ -44,9 +45,10 @@ User runs `/performance-report` or asks for a marketing report, performance anal
 Present core metrics in a summary table:
 
 | Metric | This Period | Prior Period | Change | Target | Status |
-|--------|------------|--------------|--------|--------|--------|
+| ------ | ----------- | ------------ | ------ | ------ | ------ |
 
 Status indicators:
+
 - On track (meeting or exceeding target)
 - At risk (below target but within acceptable range)
 - Off track (significantly below target)
@@ -54,6 +56,7 @@ Status indicators:
 #### Metrics by Report Type
 
 **Campaign Report:**
+
 - Impressions and reach
 - Click-through rate (CTR)
 - Conversion rate
@@ -62,6 +65,7 @@ Status indicators:
 - Total conversions/signups/leads
 
 **Channel Report (Email):**
+
 - Emails sent, delivered, bounced
 - Open rate
 - Click-through rate
@@ -69,6 +73,7 @@ Status indicators:
 - Conversion rate
 
 **Channel Report (Social):**
+
 - Impressions and reach
 - Engagement rate (likes, comments, shares)
 - Follower growth
@@ -76,6 +81,7 @@ Status indicators:
 - Top-performing posts
 
 **Channel Report (Paid):**
+
 - Spend
 - Impressions and clicks
 - CTR
@@ -84,6 +90,7 @@ Status indicators:
 - ROAS
 
 **Channel Report (SEO/Organic):**
+
 - Organic sessions
 - Keyword rankings (movement)
 - Pages indexed
@@ -91,6 +98,7 @@ Status indicators:
 - Top-performing pages
 
 **Content Performance:**
+
 - Pageviews and unique visitors
 - Time on page
 - Bounce rate
@@ -99,6 +107,7 @@ Status indicators:
 - Top and bottom performers
 
 **Overall Marketing Report:**
+
 - Total leads generated
 - Marketing qualified leads (MQLs)
 - Pipeline contribution
@@ -106,29 +115,35 @@ Status indicators:
 - Channel-by-channel summary
 
 ### 3. Trend Analysis
+
 - Performance trend over the period (week-over-week or month-over-month)
 - Notable inflection points and what caused them
 - Seasonal or cyclical patterns observed
 - Comparison to benchmarks or targets
 
 ### 4. What Worked
+
 - Top 3-5 wins with specific data
 - Why these performed well (hypothesis)
 - How to replicate or scale
 
 ### 5. What Needs Improvement
+
 - Bottom 3-5 performers with specific data
 - Hypotheses for underperformance
 - Recommended fixes
 
 ### 6. Insights and Observations
+
 - Patterns in the data that are not obvious from the metrics alone
 - Audience behavior insights
 - Content or creative themes that resonated
 - External factors that may have influenced performance (seasonality, news, competitive moves)
 
 ### 7. Recommendations
+
 For each recommendation:
+
 - What to do
 - Why (linked to a specific insight from the data)
 - Expected impact (high, medium, low)
@@ -137,12 +152,13 @@ For each recommendation:
 
 Prioritize recommendations in a 2x2 matrix format:
 
-| | Low Effort | High Effort |
-|---|---|---|
-| **High Impact** | Do first | Plan for next sprint |
-| **Low Impact** | Do if time allows | Deprioritize |
+|                 | Low Effort        | High Effort          |
+| --------------- | ----------------- | -------------------- |
+| **High Impact** | Do first          | Plan for next sprint |
+| **Low Impact**  | Do if time allows | Deprioritize         |
 
 ### 8. Next Period Focus
+
 - Top 3 priorities for the upcoming period
 - Tests or experiments to run
 - Targets for key metrics
@@ -157,6 +173,7 @@ Prioritize recommendations in a 2x2 matrix format:
 ## After the Report
 
 Ask: "Would you like me to:
+
 - Create a slide-ready summary of these results?
 - Draft a stakeholder email with the key takeaways?
 - Dive deeper into any specific metric or channel?

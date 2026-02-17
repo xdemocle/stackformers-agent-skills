@@ -16,6 +16,7 @@ Categorize, prioritize, and route an incoming support ticket or customer issue. 
 ```
 
 Examples:
+
 - `/triage Customer says their dashboard has been showing a blank page since this morning`
 - `/triage "I was charged twice for my subscription this month"`
 - `/triage User can't connect their SSO — getting a 403 error on the callback URL`
@@ -91,6 +92,7 @@ as a starting point.]
 ### 6. Offer Next Steps
 
 After presenting the triage:
+
 - "Want me to draft a full response to the customer?"
 - "Should I search for more context on this issue?"
 - "Want me to check if this is a known bug in the tracker?"

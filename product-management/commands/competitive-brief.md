@@ -14,6 +14,7 @@ Create a competitive analysis brief for one or more competitors or a feature are
 ### 1. Scope the Analysis
 
 Ask the user:
+
 - **Competitor(s)**: Which specific competitor(s) to analyze? Or a feature area to compare across competitors?
 - **Focus**: Full product comparison, specific feature area, pricing/packaging, go-to-market, or positioning?
 - **Context**: What decision will this inform? (product strategy, sales enablement, investor/board materials, feature prioritization)
@@ -21,6 +22,7 @@ Ask the user:
 ### 2. Research
 
 **Via web search**:
+
 - Product pages and feature lists
 - Pricing pages and packaging
 - Recent product launches, blog posts, and changelogs
@@ -30,49 +32,62 @@ Ask the user:
 - Social media and community discussions
 
 If **~~knowledge base** is connected:
+
 - Search for existing competitive analysis documents
 - Find win/loss reports or sales battle cards
 - Pull prior competitive research
 
 If **~~chat** is connected:
+
 - Search for competitive mentions in sales or product channels
 - Find recent deal feedback involving competitors
 
 ### 3. Generate the Brief
 
 #### Competitor Overview
+
 For each competitor:
+
 - Company summary: founding, size, funding/revenue if public, target market
 - Product positioning: how they describe themselves, who they target
 - Recent momentum: launches, funding, partnerships, customer wins
 
 #### Feature Comparison
+
 Compare capabilities across key areas relevant to the analysis. See the **competitive-analysis** skill for rating frameworks and comparison matrix templates.
 
 #### Positioning Analysis
+
 Analyze how each competitor positions themselves — target customer, category claim, key differentiator, and value proposition. See the **competitive-analysis** skill for positioning analysis frameworks.
 
 #### Strengths and Weaknesses
+
 For each competitor:
+
 - **Strengths**: Where they genuinely excel. What customers praise.
 - **Weaknesses**: Where they fall short. What customers complain about.
 - Be honest and evidence-based — do not dismiss competitors or inflate their weaknesses.
 
 #### Opportunities
+
 Based on the analysis:
+
 - Where are there gaps in competitor offerings we could exploit?
 - What are customers asking for that no one provides well?
 - Where are competitors making bets we disagree with?
 - What market shifts could advantage our approach?
 
 #### Threats
+
 - Where are competitors investing heavily?
 - What competitive moves could disrupt our position?
 - Where are we most vulnerable?
 - What would a "nightmare scenario" competitive move look like?
 
 #### Strategic Implications
+
 Tie the analysis back to product strategy:
+
 - What should we build, accelerate, or deprioritize based on this analysis?
 - Where should we differentiate vs. achieve parity?
 - How should we adjust positioning or messaging?
@@ -81,6 +96,7 @@ Tie the analysis back to product strategy:
 ### 4. Follow Up
 
 After generating the brief:
+
 - Ask if the user wants to dive deeper on any section
 - Offer to create a one-page summary for executives
 - Offer to create sales battle cards for competitive deals

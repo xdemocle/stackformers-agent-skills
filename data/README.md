@@ -27,25 +27,25 @@ Without a data warehouse connection, paste SQL results or upload CSV/Excel files
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `/analyze` | Answer data questions -- from quick lookups to full analyses |
-| `/explore-data` | Profile and explore a dataset to understand its shape, quality, and patterns |
-| `/write-query` | Write optimized SQL for your dialect with best practices |
-| `/create-viz` | Create publication-quality visualizations with Python |
-| `/build-dashboard` | Build interactive HTML dashboards with filters and charts |
-| `/validate` | QA an analysis before sharing -- methodology, accuracy, and bias checks |
+| Command            | Description                                                                  |
+| ------------------ | ---------------------------------------------------------------------------- |
+| `/analyze`         | Answer data questions -- from quick lookups to full analyses                 |
+| `/explore-data`    | Profile and explore a dataset to understand its shape, quality, and patterns |
+| `/write-query`     | Write optimized SQL for your dialect with best practices                     |
+| `/create-viz`      | Create publication-quality visualizations with Python                        |
+| `/build-dashboard` | Build interactive HTML dashboards with filters and charts                    |
+| `/validate`        | QA an analysis before sharing -- methodology, accuracy, and bias checks      |
 
 ## Skills
 
-| Skill | Description |
-|-------|-------------|
-| `sql-queries` | SQL best practices across dialects, common patterns, and performance optimization |
-| `data-exploration` | Data profiling, quality assessment, and pattern discovery |
-| `data-visualization` | Chart selection, Python viz code patterns, and design principles |
-| `statistical-analysis` | Descriptive stats, trend analysis, outlier detection, and hypothesis testing |
-| `data-validation` | Pre-delivery QA, sanity checks, and documentation standards |
-| `interactive-dashboard-builder` | HTML/JS dashboard construction with Chart.js, filters, and styling |
+| Skill                           | Description                                                                       |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| `sql-queries`                   | SQL best practices across dialects, common patterns, and performance optimization |
+| `data-exploration`              | Data profiling, quality assessment, and pattern discovery                         |
+| `data-visualization`            | Chart selection, Python viz code patterns, and design principles                  |
+| `statistical-analysis`          | Descriptive stats, trend analysis, outlier detection, and hypothesis testing      |
+| `data-validation`               | Pre-delivery QA, sanity checks, and documentation standards                       |
+| `interactive-dashboard-builder` | HTML/JS dashboard construction with Chart.js, filters, and styling                |
 
 ## Example Workflows
 

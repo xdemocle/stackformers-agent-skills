@@ -10,6 +10,7 @@ You are an expert at determining when and how to escalate support issues. You st
 ## When to Escalate vs. Handle in Support
 
 ### Handle in Support When:
+
 - The issue has a documented solution or known workaround
 - It's a configuration or setup issue you can resolve
 - The customer needs guidance or training, not a fix
@@ -17,6 +18,7 @@ You are an expert at determining when and how to escalate support issues. You st
 - Previous similar tickets were resolved at the support level
 
 ### Escalate When:
+
 - **Technical**: Bug confirmed and needs a code fix, infrastructure investigation needed, data corruption or loss
 - **Complexity**: Issue is beyond support's ability to diagnose, requires access support doesn't have, involves custom implementation
 - **Impact**: Multiple customers affected, production system down, data integrity at risk, security concern
@@ -27,24 +29,28 @@ You are an expert at determining when and how to escalate support issues. You st
 ## Escalation Tiers
 
 ### L1 → L2 (Support Escalation)
+
 **From:** Frontline support
 **To:** Senior support / technical support specialists
 **When:** Issue requires deeper investigation, specialized product knowledge, or advanced troubleshooting
 **What to include:** Ticket summary, steps already tried, customer context
 
 ### L2 → Engineering
+
 **From:** Senior support
 **To:** Engineering team (relevant product area)
 **When:** Confirmed bug, infrastructure issue, needs code change, requires system-level investigation
 **What to include:** Full reproduction steps, environment details, logs or error messages, business impact, customer timeline
 
 ### L2 → Product
+
 **From:** Senior support
 **To:** Product management
 **When:** Feature gap causing customer pain, design decision needed, workflow doesn't match customer expectations, competing customer needs require prioritization
 **What to include:** Customer use case, business impact, frequency of request, competitive pressure (if known)
 
 ### Any → Security
+
 **From:** Any support tier
 **To:** Security team
 **When:** Potential data exposure, unauthorized access, vulnerability report, compliance concern
@@ -52,6 +58,7 @@ You are an expert at determining when and how to escalate support issues. You st
 **Note:** Security escalations bypass normal tier progression — escalate immediately regardless of your level
 
 ### Any → Leadership
+
 **From:** Any tier (usually L2 or manager)
 **To:** Support leadership, executive team
 **When:** High-revenue customer threatening churn, SLA breach on critical account, cross-functional decision needed, exception to policy required, PR or legal risk
@@ -110,14 +117,14 @@ When escalating, quantify impact where possible:
 
 ### Impact Dimensions
 
-| Dimension | Questions to Answer |
-|-----------|-------------------|
-| **Breadth** | How many customers/users are affected? Is it growing? |
-| **Depth** | How severely are they impacted? Blocked vs. inconvenienced? |
-| **Duration** | How long has this been going on? How long until it's critical? |
-| **Revenue** | What's the ARR at risk? Are there pending deals affected? |
-| **Reputation** | Could this become public? Is it a reference customer? |
-| **Contractual** | Are SLAs being breached? Are there contractual obligations? |
+| Dimension       | Questions to Answer                                            |
+| --------------- | -------------------------------------------------------------- |
+| **Breadth**     | How many customers/users are affected? Is it growing?          |
+| **Depth**       | How severely are they impacted? Blocked vs. inconvenienced?    |
+| **Duration**    | How long has this been going on? How long until it's critical? |
+| **Revenue**     | What's the ARR at risk? Are there pending deals affected?      |
+| **Reputation**  | Could this become public? Is it a reference customer?          |
+| **Contractual** | Are SLAs being breached? Are there contractual obligations?    |
 
 ### Severity Shorthand
 
@@ -141,13 +148,14 @@ Good reproduction steps are the single most valuable thing in a bug escalation. 
 
 Don't escalate and forget. Maintain ownership of the customer relationship.
 
-| Severity | Internal Follow-up | Customer Update |
-|----------|-------------------|-----------------|
-| **Critical** | Every 2 hours | Every 2-4 hours (or per SLA) |
-| **High** | Every 4 hours | Every 4-8 hours |
-| **Medium** | Daily | Every 1-2 business days |
+| Severity     | Internal Follow-up | Customer Update              |
+| ------------ | ------------------ | ---------------------------- |
+| **Critical** | Every 2 hours      | Every 2-4 hours (or per SLA) |
+| **High**     | Every 4 hours      | Every 4-8 hours              |
+| **Medium**   | Daily              | Every 1-2 business days      |
 
 ### Follow-up Actions
+
 - Check with the receiving team for progress
 - Update the customer even if there's no new information ("We're still investigating — here's what we know so far")
 - Adjust severity if the situation changes (better or worse)
@@ -157,12 +165,14 @@ Don't escalate and forget. Maintain ownership of the customer relationship.
 ## De-escalation
 
 Not every escalation stays escalated. De-escalate when:
+
 - Root cause is found and it's a support-resolvable issue
 - A workaround is found that unblocks the customer
 - The issue resolves itself (but still document root cause)
 - New information changes the severity assessment
 
 When de-escalating:
+
 - Notify the team you escalated to
 - Update the ticket with the resolution
 - Inform the customer of the resolution

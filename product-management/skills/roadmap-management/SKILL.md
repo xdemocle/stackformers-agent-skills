@@ -10,6 +10,7 @@ You are an expert at product roadmap planning, prioritization, and communication
 ## Roadmap Frameworks
 
 ### Now / Next / Later
+
 The simplest and often most effective roadmap format:
 
 - **Now** (current sprint/month): Committed work. High confidence in scope and timeline. These are the things the team is actively building.
@@ -19,6 +20,7 @@ The simplest and often most effective roadmap format:
 When to use: Most teams, most of the time. Especially good for communicating externally or to leadership because it avoids false precision on dates.
 
 ### Quarterly Themes
+
 Organize the roadmap around 2-3 themes per quarter:
 
 - Each theme represents a strategic area of investment (e.g., "Enterprise readiness", "Activation improvements", "Platform extensibility")
@@ -29,6 +31,7 @@ Organize the roadmap around 2-3 themes per quarter:
 When to use: When you need to show strategic alignment. Good for planning meetings and executive communication.
 
 ### OKR-Aligned Roadmap
+
 Map roadmap items directly to Objectives and Key Results:
 
 - Start with the team's OKRs for the period
@@ -39,6 +42,7 @@ Map roadmap items directly to Objectives and Key Results:
 When to use: Organizations that run on OKRs. Good for ensuring every initiative has a clear "why" tied to measurable outcomes.
 
 ### Timeline / Gantt View
+
 Calendar-based view with items on a timeline:
 
 - Shows start dates, end dates, and durations
@@ -51,6 +55,7 @@ When to use: Execution planning with engineering. Identifying scheduling conflic
 ## Prioritization Frameworks
 
 ### RICE Score
+
 Score each initiative on four dimensions, then calculate RICE = (Reach x Impact x Confidence) / Effort
 
 - **Reach**: How many users/customers will this affect in a given time period? Use concrete numbers (e.g., "500 users per quarter").
@@ -61,6 +66,7 @@ Score each initiative on four dimensions, then calculate RICE = (Reach x Impact 
 When to use: When you need a quantitative, defensible prioritization. Good for comparing a large backlog of initiatives. Less good for strategic bets where impact is hard to estimate.
 
 ### MoSCoW
+
 Categorize items into Must have, Should have, Could have, Won't have:
 
 - **Must have**: The roadmap is a failure without these. Non-negotiable commitments.
@@ -71,6 +77,7 @@ Categorize items into Must have, Should have, Could have, Won't have:
 When to use: Scoping a release or quarter. Negotiating with stakeholders about what fits. Good for forcing prioritization conversations.
 
 ### ICE Score
+
 Simpler than RICE. Score each item 1-10 on three dimensions:
 
 - **Impact**: How much will this move the target metric?
@@ -82,6 +89,7 @@ ICE Score = Impact x Confidence x Ease
 When to use: Quick prioritization of a feature backlog. Good for early-stage products or when you do not have enough data for RICE.
 
 ### Value vs Effort Matrix
+
 Plot initiatives on a 2x2 matrix:
 
 - **High value, Low effort** (Quick wins): Do these first.
@@ -94,6 +102,7 @@ When to use: Visual prioritization in team planning sessions. Good for building 
 ## Dependency Mapping
 
 ### Identifying Dependencies
+
 Look for dependencies across these categories:
 
 - **Technical dependencies**: Feature B requires infrastructure work from Feature A
@@ -103,6 +112,7 @@ Look for dependencies across these categories:
 - **Sequential dependencies**: Must ship Feature A before starting Feature B (shared code, user flow)
 
 ### Managing Dependencies
+
 - List all dependencies explicitly in the roadmap
 - Assign an owner to each dependency (who is responsible for resolving it)
 - Set a "need by" date: when does the depending item need this resolved
@@ -111,6 +121,7 @@ Look for dependencies across these categories:
 - Have a contingency plan: what do you do if the dependency slips?
 
 ### Reducing Dependencies
+
 - Can you build a simpler version that avoids the dependency?
 - Can you parallelize by using an interface contract or mock?
 - Can you sequence differently to move the dependency earlier?
@@ -119,12 +130,14 @@ Look for dependencies across these categories:
 ## Capacity Planning
 
 ### Estimating Capacity
+
 - Start with the number of engineers and the time period
 - Subtract known overhead: meetings, on-call rotations, interviews, holidays, PTO
 - A common rule of thumb: engineers spend 60-70% of time on planned feature work
 - Factor in team ramp time for new members
 
 ### Allocating Capacity
+
 A healthy allocation for most product teams:
 
 - **70% planned features**: Roadmap items that advance strategic goals
@@ -132,12 +145,14 @@ A healthy allocation for most product teams:
 - **10% unplanned**: Buffer for urgent issues, quick wins, and requests from other teams
 
 Adjust ratios based on team context:
+
 - New product: more feature work, less tech debt
 - Mature product: more tech debt and reliability investment
 - Post-incident: more reliability, less features
 - Rapid growth: more scalability and performance
 
 ### Capacity vs Ambition
+
 - If roadmap commitments exceed capacity, something must give
 - Do not solve capacity problems by pretending people can do more — solve by cutting scope
 - When adding to the roadmap, always ask: "What comes off?"
@@ -146,7 +161,9 @@ Adjust ratios based on team context:
 ## Communicating Roadmap Changes
 
 ### When the Roadmap Changes
+
 Common triggers for roadmap changes:
+
 - New strategic priority from leadership
 - Customer feedback or research that changes priorities
 - Technical discovery that changes estimates
@@ -155,6 +172,7 @@ Common triggers for roadmap changes:
 - Competitive move that requires response
 
 ### How to Communicate Changes
+
 1. **Acknowledge the change**: Be direct about what is changing and why
 2. **Explain the reason**: What new information drove this decision?
 3. **Show the tradeoff**: What was deprioritized to make room? Or what is slipping?
@@ -162,6 +180,7 @@ Common triggers for roadmap changes:
 5. **Acknowledge impact**: Who is affected and how? Stakeholders who were expecting deprioritized items need to hear it directly.
 
 ### Avoiding Roadmap Whiplash
+
 - Do not change the roadmap for every piece of new information. Have a threshold for change.
 - Batch roadmap updates at natural cadences (monthly, quarterly) unless something is truly urgent.
 - Distinguish between "roadmap change" (strategic reprioritization) and "scope adjustment" (normal execution refinement).

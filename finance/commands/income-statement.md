@@ -31,14 +31,17 @@ Generate an income statement with period-over-period comparison and variance ana
 ### 1. Gather Financial Data
 
 If ~~erp or ~~data warehouse is connected:
+
 - Pull trial balance or income statement data for the specified period
 - Pull comparison period data (prior period, prior year, budget/forecast)
 - Pull account hierarchy and groupings for presentation
 
 If no data source is connected:
+
 > Connect ~~erp or ~~data warehouse to pull financial data automatically. You can also paste trial balance data, upload a spreadsheet, or provide income statement data for analysis.
 
 Prompt the user to provide:
+
 - Current period revenue and expense data (by account or category)
 - Comparison period data (prior period, prior year, and/or budget)
 - Any known adjustments or reclassifications
@@ -98,10 +101,12 @@ NET INCOME (LOSS)             $XX,XXX    $XX,XXX    $X,XXX     X.X%       $XX,XX
 For each line item, calculate and flag material variances:
 
 **Materiality thresholds** (flag if either condition met):
+
 - Dollar variance exceeds a defined threshold (e.g., $50K, $100K — ask user for their threshold)
 - Percentage variance exceeds 10% (or user-defined threshold)
 
 For flagged variances, provide:
+
 - Direction and magnitude of the variance
 - Possible drivers (if data is available to decompose)
 - Questions to investigate
@@ -124,13 +129,14 @@ Effective tax rate (%)        XX.X%      XX.X%      X.X pp
 
 List all material variances requiring investigation:
 
-| Line Item | Variance ($) | Variance (%) | Direction | Preliminary Driver | Action |
-|-----------|-------------|-------------|-----------|-------------------|--------|
-| [Item]    | $X,XXX      | X.X%        | Unfav.    | [If known]        | Investigate |
+| Line Item | Variance ($) | Variance (%) | Direction | Preliminary Driver | Action      |
+| --------- | ------------ | ------------ | --------- | ------------------ | ----------- |
+| [Item]    | $X,XXX       | X.X%         | Unfav.    | [If known]         | Investigate |
 
 ### 6. Output
 
 Provide:
+
 1. Formatted income statement with comparisons
 2. Key metrics summary
 3. Material variance listing with investigation flags

@@ -37,12 +37,12 @@ Articles are useless if customers can't find them. Optimize every article for se
 
 ### Title Best Practices
 
-| Good Title | Bad Title | Why |
-|------------|-----------|-----|
-| "How to configure SSO with Okta" | "SSO Setup" | Specific, includes the tool name customers search for |
-| "Fix: Dashboard shows blank page" | "Dashboard Issue" | Includes the symptom customers experience |
-| "API rate limits and quotas" | "API Information" | Includes the specific terms customers search for |
-| "Error: 'Connection refused' when importing data" | "Import Problems" | Includes the exact error message |
+| Good Title                                        | Bad Title         | Why                                                   |
+| ------------------------------------------------- | ----------------- | ----------------------------------------------------- |
+| "How to configure SSO with Okta"                  | "SSO Setup"       | Specific, includes the tool name customers search for |
+| "Fix: Dashboard shows blank page"                 | "Dashboard Issue" | Includes the symptom customers experience             |
+| "API rate limits and quotas"                      | "API Information" | Includes the specific terms customers search for      |
+| "Error: 'Connection refused' when importing data" | "Import Problems" | Includes the exact error message                      |
 
 ### Keyword Optimization
 
@@ -68,6 +68,7 @@ Start every article with a sentence that restates the problem or task in plain l
 **Purpose**: Step-by-step instructions for accomplishing a task.
 
 **Structure**:
+
 ```
 # How to [accomplish task]
 
@@ -94,6 +95,7 @@ Start every article with a sentence that restates the problem or task in plain l
 ```
 
 **Best practices**:
+
 - Start each step with a verb
 - Include the specific path: "Go to Settings > Integrations > API Keys"
 - Mention what the user should see after each step ("You should see a green confirmation banner")
@@ -104,6 +106,7 @@ Start every article with a sentence that restates the problem or task in plain l
 **Purpose**: Diagnose and resolve a specific problem.
 
 **Structure**:
+
 ```
 # [Problem description — what the user sees]
 
@@ -128,6 +131,7 @@ Start every article with a sentence that restates the problem or task in plain l
 ```
 
 **Best practices**:
+
 - Lead with symptoms, not causes — customers search for what they see
 - Provide multiple solutions when possible (most likely fix first)
 - Include a "Still having issues?" section that points to support
@@ -138,6 +142,7 @@ Start every article with a sentence that restates the problem or task in plain l
 **Purpose**: Quick answer to a common question.
 
 **Structure**:
+
 ```
 # [Question — in the customer's words]
 
@@ -152,6 +157,7 @@ Start every article with a sentence that restates the problem or task in plain l
 ```
 
 **Best practices**:
+
 - Answer the question in the first sentence
 - Keep it concise — if the answer needs a walkthrough, it's a how-to, not an FAQ
 - Group related FAQs and link between them
@@ -161,6 +167,7 @@ Start every article with a sentence that restates the problem or task in plain l
 **Purpose**: Document a known bug or limitation with a workaround.
 
 **Structure**:
+
 ```
 # [Known Issue]: [Brief description]
 
@@ -182,6 +189,7 @@ Start every article with a sentence that restates the problem or task in plain l
 ```
 
 **Best practices**:
+
 - Keep the status current — nothing erodes trust faster than a stale known issue article
 - Update the article when the fix ships and mark as resolved
 - If resolved, keep the article live for 30 days for customers still searching the old symptoms
@@ -190,14 +198,14 @@ Start every article with a sentence that restates the problem or task in plain l
 
 Knowledge bases decay without maintenance. Follow this schedule:
 
-| Activity | Frequency | Who |
-|----------|-----------|-----|
-| **New article review** | Before publishing | Peer review + SME for technical content |
-| **Accuracy audit** | Quarterly | Support team reviews top-traffic articles |
-| **Stale content check** | Monthly | Flag articles not updated in 6+ months |
-| **Known issue updates** | Weekly | Update status on all open known issues |
-| **Analytics review** | Monthly | Check which articles have low helpfulness ratings or high bounce rates |
-| **Gap analysis** | Quarterly | Identify top ticket topics without KB articles |
+| Activity                | Frequency         | Who                                                                    |
+| ----------------------- | ----------------- | ---------------------------------------------------------------------- |
+| **New article review**  | Before publishing | Peer review + SME for technical content                                |
+| **Accuracy audit**      | Quarterly         | Support team reviews top-traffic articles                              |
+| **Stale content check** | Monthly           | Flag articles not updated in 6+ months                                 |
+| **Known issue updates** | Weekly            | Update status on all open known issues                                 |
+| **Analytics review**    | Monthly           | Check which articles have low helpfulness ratings or high bounce rates |
+| **Gap analysis**        | Quarterly         | Identify top ticket topics without KB articles                         |
 
 ### Article Lifecycle
 
@@ -210,12 +218,14 @@ Knowledge bases decay without maintenance. Follow this schedule:
 ### When to Update vs. Create New
 
 **Update existing** when:
+
 - The product changed and steps need refreshing
 - The article is mostly right but missing a detail
 - Feedback indicates customers are confused by a specific section
 - A better workaround or solution was found
 
 **Create new** when:
+
 - A new feature or product area needs documentation
 - A resolved ticket reveals a gap — no article exists for this topic
 - The existing article covers too many topics and should be split

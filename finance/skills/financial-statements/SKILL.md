@@ -217,6 +217,7 @@ Cash and cash equivalents, end of period
 ### Variance Calculation
 
 For each line item, calculate:
+
 - **Dollar variance:** Current period - Prior period (or current period - budget)
 - **Percentage variance:** (Current - Prior) / |Prior| x 100
 - **Basis point change:** For margins and ratios, express change in basis points (1 bp = 0.01%)
@@ -230,13 +231,13 @@ Define what constitutes a "material" variance requiring investigation. Common ap
 - **Combined:** Either the dollar OR percentage threshold is exceeded
 - **Scaled:** Different thresholds for different line items based on their size and volatility
 
-*Example thresholds (adjust for your organization):*
+_Example thresholds (adjust for your organization):_
 
 | Line Item Size | Dollar Threshold | Percentage Threshold |
-|---------------|-----------------|---------------------|
-| > $10M        | $500K           | 5%                  |
-| $1M - $10M    | $100K           | 10%                 |
-| < $1M         | $50K            | 15%                 |
+| -------------- | ---------------- | -------------------- |
+| > $10M         | $500K            | 5%                   |
+| $1M - $10M     | $100K            | 10%                  |
+| < $1M          | $50K             | 15%                  |
 
 ### Variance Decomposition
 
@@ -253,6 +254,7 @@ Break down total variance into component drivers:
 ### Investigation and Narrative
 
 For each material variance:
+
 1. Quantify the variance ($ and %)
 2. Identify whether favorable or unfavorable
 3. Decompose into drivers using the categories above

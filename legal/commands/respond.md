@@ -18,6 +18,7 @@ Generate a response to a common legal inquiry using configured templates. Custom
 ```
 
 Common inquiry types:
+
 - `dsr` or `data-subject-request` -- Data subject access/deletion/correction requests
 - `hold` or `discovery-hold` -- Litigation hold notices
 - `vendor` or `vendor-question` -- Vendor legal questions
@@ -40,10 +41,12 @@ Accept the inquiry type from the user. If the type is ambiguous, show available 
 Look for templates in local settings (e.g., `legal.local.md` or a templates directory).
 
 **If templates are configured:**
+
 - Load the appropriate template for the inquiry type
 - Identify required variables (recipient name, dates, specific details)
 
 **If no templates are configured:**
+
 - Inform the user that no templates were found for this inquiry type
 - Offer to help create a template (see Step 6)
 - Provide a reasonable default response structure based on the inquiry type
@@ -53,6 +56,7 @@ Look for templates in local settings (e.g., `legal.local.md` or a templates dire
 Before generating the response, evaluate whether this situation has characteristics that should NOT use a templated response:
 
 #### Data Subject Request Escalation Triggers
+
 - Request involves a minor's data
 - Request is from a regulatory authority (not an individual)
 - Request involves data that is subject to a litigation hold
@@ -61,6 +65,7 @@ Before generating the response, evaluate whether this situation has characterist
 - Request involves data processed in a jurisdiction with unique requirements
 
 #### Discovery Hold Escalation Triggers
+
 - The matter involves potential criminal liability
 - The preservation scope is unclear or potentially overbroad
 - There are questions about whether certain data is within scope
@@ -68,18 +73,21 @@ Before generating the response, evaluate whether this situation has characterist
 - The hold may affect ongoing business operations significantly
 
 #### Vendor Question Escalation Triggers
+
 - The question involves a dispute or potential breach
 - The vendor is threatening litigation or termination
 - The question involves regulatory compliance (not just contract terms)
 - The response could create a binding commitment or waiver
 
 #### NDA Request Escalation Triggers
+
 - The counterparty is a competitor
 - The NDA involves government classified information
 - The business context suggests the NDA is for a potential M&A transaction
 - The request involves unusual subject matter (AI training data, biometric data, etc.)
 
 **If an escalation trigger is detected:**
+
 - Alert the user that this situation may not be appropriate for a templated response
 - Explain which trigger was detected and why it matters
 - Recommend the user consult with a senior team member or outside counsel
@@ -90,6 +98,7 @@ Before generating the response, evaluate whether this situation has characterist
 Prompt the user for the details needed to customize the response:
 
 **Data Subject Request:**
+
 - Requester name and contact information
 - Type of request (access, deletion, correction, portability, opt-out)
 - What data is involved
@@ -97,6 +106,7 @@ Prompt the user for the details needed to customize the response:
 - Response deadline
 
 **Discovery Hold:**
+
 - Matter name and reference number
 - Custodians (who needs to preserve)
 - Scope of preservation (date range, data types, systems)
@@ -104,12 +114,14 @@ Prompt the user for the details needed to customize the response:
 - Effective date
 
 **Vendor Question:**
+
 - Vendor name
 - Reference agreement (if applicable)
 - Specific question being addressed
 - Relevant contract provisions
 
 **NDA Request:**
+
 - Requesting business team and contact
 - Counterparty name
 - Purpose of the NDA
@@ -119,6 +131,7 @@ Prompt the user for the details needed to customize the response:
 ### Step 5: Generate Response
 
 Populate the template with the gathered details. Ensure the response:
+
 - Uses appropriate tone (professional, clear, not overly legalistic for business audiences)
 - Includes all required legal elements for the response type
 - References specific dates, deadlines, and obligations
@@ -145,23 +158,29 @@ If the user wants to create a new template:
 ## Template: [Category Name]
 
 ### Escalation Triggers
+
 - [Trigger 1]
 - [Trigger 2]
 
 ### Variables
+
 - {{variable_1}}: [description]
 - {{variable_2}}: [description]
 
 ### Subject Line
+
 [Subject template]
 
 ### Body
+
 [Response body with {{variables}}]
 
 ### Attachments
+
 [Any standard attachments to include]
 
 ### Follow-Up
+
 [Standard follow-up actions after sending]
 ```
 
