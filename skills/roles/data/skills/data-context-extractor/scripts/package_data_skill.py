@@ -6,8 +6,8 @@ Usage:
     python package_data_skill.py <path/to/skill-folder> [output-directory]
 
 Example:
-    python package_data_skill.py /home/claude/acme-data-analyst
-    python package_data_skill.py /home/claude/acme-data-analyst /tmp/outputs
+    python package_data_skill.py /home/user/acme-data-analyst
+    python package_data_skill.py /home/user/acme-data-analyst /tmp/outputs
 """
 
 import sys

@@ -1,1 +1,3 @@
-AGENTS.md
+# Project Rules
+
+See [AGENTS.md](./AGENTS.md) for all project rules and conventions.
